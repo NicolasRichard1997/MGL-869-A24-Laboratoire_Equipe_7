@@ -47,7 +47,7 @@ Le résultat est présent dans le fichier `Hive_modified_cpp-java_files.csv` dan
 
 ```CSV
 <Bug ID 1>, <modified Java/CPP file 1>,  <modified Java/CPP file 2>, [...],
-<Bug ID 2>, <modified Java/CPP file 1>,  <modified Java/CPP file 2>, [...]
+<Bug ID 2>, <modified Java/CPP file 1>,  <modified Java/CPP file 2>, [...],
 ```
 
 ### 1.3 Collection des variables indépendantes avec `Understand`
