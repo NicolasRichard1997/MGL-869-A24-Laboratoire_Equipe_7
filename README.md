@@ -21,7 +21,7 @@ Les bogues sont extraits de Jira tel que suit, pour toutes les versions majeures
 project = HIVE AND issuetype = Bug AND status in (Resolved, Closed) AND affectedVersion = X.Y.0
 ```
 
-Les bogues sont extraits dans le fichier `Hive_bug_list.csv` contenant les variables suivantes, à l'aide du fichier 'concatenate_bug_list.py':
+Les bogues sont extraits dans le fichier `Hive_bug_list.csv` contenant les variables suivantes, à l'aide du fichier `Hive_Concatenate_bug_list.py`:
 
 - Issue Type
 - version
@@ -44,11 +44,11 @@ Les bogues sont extraits dans le fichier `Hive_bug_list.csv` contenant les varia
 
 Ce fichier permet l'identification des fichiers `java` et `C++` modifiés lors de la résolution de chacun des bogues par `Hive_bug_IDs+version_extraction.py`.
 
-Le résultat est présent dans le fichier `Hive_modified_cpp-java_files.csv` dans le format suivant:
+Le résultat est présent dans le fichier `modified_cpp-java_files.csv` dans le format suivant:
 
 ```CSV
-<Bug ID 1>, <modified Java/CPP file 1>,  <modified Java/CPP file 2>, [...],
-<Bug ID 2>, <modified Java/CPP file 1>,  <modified Java/CPP file 2>, [...],
+<Bug ID 1>,<version>,<modified Java/CPP file 1>,<modified Java/CPP file 2>,[...],
+<Bug ID 2>,<version>,<modified Java/CPP file 1>,<modified Java/CPP file 2>,[...],
 ```
 
 ### 1.3 Collection des variables indépendantes avec `Understand`
