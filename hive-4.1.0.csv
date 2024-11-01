@@ -1,3 +1,0 @@
-Issue Type,Issue key,Issue id,Summary,Assignee,Reporter,Priority,Status,Resolution,Created,Updated,Due Date
-Bug,HIVE-28262,13579468,Single column use MultiDelimitSerDe parse column error,laughing_vzr,laughing_vzr,Major,Resolved,Fixed,16/May/24 07:21,25/Sep/24 04:44,16/May/24 00:00
-Bug,HIVE-28006,13565043,Materialized view with aggregate function incorrectly shows it allows incremental rebuild,kkasa,kkasa,Major,Resolved,Fixed,17/Jan/24 09:00,23/Sep/24 11:24,
