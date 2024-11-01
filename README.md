@@ -15,10 +15,10 @@ L'objectif de cette première étape est de collecter les données nécessaires 
 
 ### 1.1 Collection des fichiers qui contiennent un bogue sur Jira
 
-Les bogues sont extraits de Jira avec les critères suivants:
+Les bogues sont extraits de Jira tel que suit, pour toutes les versions majeures et mineures (excluant les patchs) à partir de 2.0.0:
 
 ```sql
-project = HIVE AND issuetype = Bug AND status in (Resolved, Closed) AND affectedVersion >= 2.0.0
+project = HIVE AND issuetype = Bug AND status in (Resolved, Closed) AND affectedVersion = X.Y.0
 ```
 
 Les bogues sont extraits dans le fichier `Hive_bug_list.csv` contenant les variables suivantes:
