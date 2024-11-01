@@ -21,9 +21,10 @@ Les bogues sont extraits de Jira tel que suit, pour toutes les versions majeures
 project = HIVE AND issuetype = Bug AND status in (Resolved, Closed) AND affectedVersion = X.Y.0
 ```
 
-Les bogues sont extraits dans le fichier `Hive_bug_list.csv` contenant les variables suivantes:
+Les bogues sont extraits dans le fichier `Hive_bug_list.csv` contenant les variables suivantes, à l'aide du fichier 'concatenate_bug_list.py':
 
 - Issue Type
+- version
 - Issue key
 - Issue id
 - Summary
