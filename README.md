@@ -42,7 +42,7 @@ Les bogues sont extraits dans le fichier `Hive_bug_list.csv` contenant les varia
 
 À partir du fichier généré à l'étape précédente, les `bug IDs` ont été extraits via l'exécution du fichier `Hive_bug_IDs_extraction.py`
 
-Ce fichier permet l'identification des fichiers `java` et `C++` modifiés lors de la résolution de chacun des bogues par `Hive_modified_cpp-java_files_extraction.py`.
+Ce fichier permet l'identification des fichiers `java` et `C++` modifiés lors de la résolution de chacun des bogues par `Hive_bug_IDs+version_extraction.py`.
 
 Le résultat est présent dans le fichier `Hive_modified_cpp-java_files.csv` dans le format suivant:
 
