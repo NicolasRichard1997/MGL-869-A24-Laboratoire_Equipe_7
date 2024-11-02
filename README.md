@@ -54,7 +54,24 @@ Le résultat est présent dans le fichier `modified_cpp-java_files.csv` dans le 
 ### 1.3 Collection des variables indépendantes avec `Understand`
 
 Dans un premier temps, on extrait le dernier commit avant les 'releases' majeur avec le programme en python suivant:
-`Hive_find_commit_before_release.py'. Le résultat est stcoké dans le fichier `Hive_last_commit_before_release.txt`.
+`Hive_find_commit_before_release.py`. Le résultat est stcoké dans le fichier `Hive_last_commit_before_release.txt`.
+
+À l'aide 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
