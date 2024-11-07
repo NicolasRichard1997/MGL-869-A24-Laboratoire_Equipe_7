@@ -71,6 +71,11 @@ Les fichiers sont ensuite légèrement reformattés dans le répertoire `UND_hiv
 Finalement, un dernier programme python `Hive_bug_Identification.py` est utilisé pour retrouver chacun des fichier modifiés dans `modified_cpp-java_files.csv` pour chacune des versions du logiciel et ajusté à `1`.
 
 
+## 2. Préparation des Donnés
+
+Voir le (jupyter notebook)[https://github.com/NicolasRichard1997/MGL-869-A24-Laboratoire_Equipe_7/blob/main/ML_Pipeline/Data_Preparation.ipynb]
+
+
 
 
 
