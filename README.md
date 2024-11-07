@@ -66,6 +66,7 @@ Kind,Name,AvgCountLine,AvgCountLineBlank,AvgCountLineCode,AvgCountLineComment,Av
 File,"ACLConfigurationParser.java",11,0,11,0,3,3,3,3,2,0.00,0.00,0,0,,,,,1,0,3,10,,,,10,10,2,,,,10,,,0,,3,0,7,,167,22,125,38,70,20,,,,57,89,37,,58,,,,,,11,11,13,13,9,,3,,,0.16,29,29,32,32,22
 File,"AMReporter.java",12,0,11,1,2,2,2,2,1,0.00,0.00,0,0,,,,,9,0,1,37,,,,37,37,31,,,,37,,,10,,2,4,21,,582,70,458,167,240,54,,,,218,303,149,,182,,,,,,7,7,9,9,3,,4,,,0.12,72,72,75,75,39
 ```
+
 Les fichiers sont ensuite légèrement reformattés dans le répertoire `UND_hive_processed_data` pour inclure seulement les fichiers et ajouter une colonne 'bug' initialisé à `0` pour chacune des entrées à l'aide de `Hive_UND_data_filtering.py`.
 
 Finalement, un dernier programme python `Hive_bug_Identification.py` est utilisé pour retrouver chacun des fichier modifiés dans `modified_cpp-java_files.csv` pour chacune des versions du logiciel et ajusté à `1`.
@@ -73,10 +74,12 @@ Finalement, un dernier programme python `Hive_bug_Identification.py` est utilis�
 
 ## 2. Préparation des Donnés
 
-Voir le (jupyter notebook)[https://github.com/NicolasRichard1997/MGL-869-A24-Laboratoire_Equipe_7/blob/main/ML_Pipeline/Data_Preparation.ipynb]
+Voir le [Jupyter Notebook](https://github.com/NicolasRichard1997/MGL-869-A24-Laboratoire_Equipe_7/blob/main/ML_Pipeline/Data_Preparation.ipynb)
 
 
+## 3. Entraînement du modèle et Interprétation
 
+Voir le [Jupyter Notebook](https://github.com/NicolasRichard1997/MGL-869-A24-Laboratoire_Equipe_7/blob/main/ML_Pipeline/Data_Partion%2BTrainning.ipynb)
 
 
 
