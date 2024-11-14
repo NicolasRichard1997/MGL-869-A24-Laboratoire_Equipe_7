@@ -1,0 +1,11 @@
+Issue Type,Issue key,Issue id,Summary,Assignee,Reporter,Priority,Status,Resolution,Created,Updated,Due Date
+Bug,HIVE-27631,13547694,Fix CCE when set fs.hdfs.impl other than DistributedFileSystem,maobaolong,maobaolong,Major,Closed,Fixed,17/Aug/23 08:53,29/Mar/24 17:49,
+Bug,HIVE-24608,13351153,Switch back to get_table in HMS client for Hive 2.3.x,csun,csun,Major,Resolved,Fixed,08/Jan/21 18:58,25/May/23 07:42,
+Bug,HIVE-24606,13351093,Multi-stage materialized CTEs can lose intermediate data,okumin,okumin,Major,Closed,Fixed,08/Jan/21 13:50,29/Mar/24 17:50,
+Bug,HIVE-24579,13348853,Incorrect Result For Groupby With Limit,kkasa,nemon,Major,Closed,Fixed,04/Jan/21 03:40,17/Nov/22 08:48,
+Bug,HIVE-24404,13341245,Hive getUserName close db makes client operations lost metaStoreClient connection,abstractdog,artiship,Major,Closed,Fixed,18/Nov/20 07:52,15/Aug/23 06:33,
+Bug,HIVE-23980,13320704,Shade guava from existing Hive versions,viirya,viirya,Major,Resolved,Fixed,03/Aug/20 16:26,18/Dec/20 17:32,
+Bug,HIVE-23974,13320492,(hadoop3.3.0 + hive2.3.7) start hiveserver2 get exception: java.lang.IllegalAccessError: tried to access method com.google.common.base.Stopwatch,,jimmy0,Major,Resolved,Not A Bug,01/Aug/20 06:26,01/Aug/20 09:34,
+Bug,HIVE-23704,13311761,Thrift HTTP Server Does Not Handle Auth Handle Correctly,belugabehr,belugabehr,Major,Closed,Fixed,16/Jun/20 16:12,17/Nov/22 08:48,
+Bug,HIVE-22410,13264660,CachedStore Prewarm Failure NPE,slfan1989,slfan1989,Major,Resolved,Works for Me,27/Oct/19 08:45,04/May/22 11:28,
+Bug,HIVE-17155,13089168,findConfFile() in HiveConf.java has some issues with the conf path,xiaoqiang_song,aihuaxu,Minor,Closed,Fixed,21/Jul/17 21:44,30/Jan/21 09:02,

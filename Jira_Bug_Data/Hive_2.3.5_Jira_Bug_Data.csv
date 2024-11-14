@@ -1,0 +1,11 @@
+Issue Type,Issue key,Issue id,Summary,Assignee,Reporter,Priority,Status,Resolution,Created,Updated,Due Date
+Bug,HIVE-27631,13547694,Fix CCE when set fs.hdfs.impl other than DistributedFileSystem,maobaolong,maobaolong,Major,Closed,Fixed,17/Aug/23 08:53,29/Mar/24 17:49,
+Bug,HIVE-22093,13249842,JdbcStorageHandler query mysql with wrong offset,sevenseablue,sevenseablue,Major,Resolved,Fixed,09/Aug/19 08:30,14/Aug/19 03:56,
+Bug,HIVE-22054,13247273,Avoid recursive listing to check if a directory is empty,prabhas,prabhas,Major,Closed,Fixed,26/Jul/19 10:38,07/Dec/22 02:50,
+Bug,HIVE-22044,13246896,No way to start HiveServer2,,Ivan Kostyuk,Trivial,Resolved,Not A Bug,24/Jul/19 19:08,07/Feb/20 01:52,24/Jul/19 00:00
+Bug,HIVE-22033,13246588,HiveServer2: fix delegation token renewal,yetanotherion,yetanotherion,Major,Closed,Fixed,23/Jul/19 14:29,10/Apr/23 04:02,
+Bug,HIVE-21969,13243734,Beeline doesnt support HiveQL,,ValTrofFuture,Major,Resolved,Cannot Reproduce,08/Jul/19 18:00,11/Jul/19 15:36,
+Bug,HIVE-21873,13239466,Hive Cann't drop table in different hdfs clusters,,ico01,Major,Resolved,Won't Fix,14/Jun/19 07:54,21/Jun/19 02:29,14/Jun/19 00:00
+Bug,HIVE-21809,13236571,Backport HIVE-21786 to branch-2.3,gates,gates,Major,Closed,Fixed,30/May/19 19:20,23/Aug/19 20:53,
+Bug,HIVE-21786,13235210,Update repo URLs in poms,gates,gates,Major,Closed,Fixed,23/May/19 18:50,17/Nov/22 08:50,
+Bug,HIVE-21778,13234892,"CBO: ""Struct is not null"" gets evaluated as `nullable` always causing filter miss in the query",vgarg,rajesh.balamohan,Major,Closed,Fixed,22/May/19 12:16,27/Feb/24 22:23,

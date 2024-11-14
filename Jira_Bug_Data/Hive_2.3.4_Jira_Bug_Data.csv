@@ -1,0 +1,18 @@
+Issue Type,Issue key,Issue id,Summary,Assignee,Reporter,Priority,Status,Resolution,Created,Updated,Due Date
+Bug,HIVE-24915,13366432,Distribute by with sort by clause when used with constant parameter for sort produces wrong result.,kgyrtkirk,Chandrashekharachar,Major,Resolved,Duplicate,19/Mar/21 20:10,24/May/23 12:36,
+Bug,HIVE-24849,13362431,Create external table socket timeout when location has large number of files,glapark,maxmithun,Major,Closed,Fixed,04/Mar/21 23:21,17/Nov/22 08:48,
+Bug,HIVE-24467,13343691,ConditionalTask remove tasks that not selected exists thread safety problem,jshmchenxi,gjhkael,Major,Closed,Fixed,02/Dec/20 05:44,17/Nov/22 08:47,
+Bug,HIVE-24406,13341764,HiveConf creation in HiveMetastore's getMS() call adds ~100ms latency,sahanabhat,sahanabhat,Major,Resolved,Invalid,20/Nov/20 10:34,07/Apr/21 16:02,
+Bug,HIVE-22008,13245717,LIKE Operator should match multi-line input ,gopalv,ssmane3,Major,Closed,Fixed,18/Jul/19 09:36,27/Feb/24 22:23,
+Bug,HIVE-21971,13243809,HS2 leaks classloader due to `ReflectionUtils::CONSTRUCTOR_CACHE` with temporary functions + GenericUDF,rajesh.balamohan,rajesh.balamohan,Critical,Closed,Fixed,09/Jul/19 03:32,17/Nov/22 08:50,
+Bug,HIVE-21873,13239466,Hive Cann't drop table in different hdfs clusters,,ico01,Major,Resolved,Won't Fix,14/Jun/19 07:54,21/Jun/19 02:29,14/Jun/19 00:00
+Bug,HIVE-21614,13228128,Derby/Oracle does not support CLOB comparisons,dengzh,vrozov,Major,Resolved,Fixed,15/Apr/19 15:07,09/Oct/24 05:02,
+Bug,HIVE-21536,13224679,Backport HIVE-17764 to branch-2.3,yumwang,yumwang,Major,Closed,Fixed,28/Mar/19 19:30,14/May/19 21:11,
+Bug,HIVE-21508,13223978,ClassCastException when initializing HiveMetaStoreClient on JDK10 or newer,ananamj,adar,Major,Closed,Fixed,26/Mar/19 08:49,21/Oct/22 06:56,
+Bug,HIVE-21489,13223286,EXPLAIN command throws ClassCastException in Hive,rameshkumar,Ping Lu,Major,Closed,Fixed,22/Mar/19 09:27,21/Oct/22 06:56,22/Mar/19 00:00
+Bug,HIVE-21374,13219073,"Dependency conflicts on org.apache.httpcomponents:httpcore:jar, leading to invoking unexpected methods",,HelloCoCooo,Major,Resolved,Duplicate,02/Mar/19 07:50,21/May/19 12:39,
+Bug,HIVE-21345,13218560,Hive CLIDriver  parses sql statement  incorrectly,feiwang,feiwang,Major,Resolved,Not A Bug,28/Feb/19 08:10,28/Feb/19 13:33,
+Bug,HIVE-21200,13213315,Vectorization: date column throwing java.lang.UnsupportedOperationException for parquet,adrian-wang,vpnvishv,Major,Resolved,Fixed,01/Feb/19 13:56,16/May/21 15:49,
+Bug,HIVE-21136,13210459,Kryo exception : Unable to create serializer  for class AtomicReference,rajesh.balamohan,rajesh.balamohan,Major,Resolved,Won't Fix,18/Jan/19 19:03,19/Jan/19 01:39,
+Bug,HIVE-21111,13208474,ConditionalTask cannot be cast to MapRedTask,qunyan,qunyan,Major,Closed,Fixed,09/Jan/19 06:11,17/Nov/22 08:55,
+Bug,HIVE-16839,13077858,Unbalanced calls to openTransaction/commitTransaction when alter the same partition concurrently,yguang11,nemon,Major,Closed,Fixed,07/Jun/17 01:55,17/Nov/22 08:54,

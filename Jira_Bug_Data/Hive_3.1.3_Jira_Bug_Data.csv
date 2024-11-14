@@ -1,0 +1,26 @@
+Issue Type,Issue key,Issue id,Summary,Assignee,Reporter,Priority,Status,Resolution,Created,Updated,Due Date
+Bug,HIVE-28360,13584711,"Upgrade jersey to version 1.19.4,",lvyankui,lvyankui,Major,Resolved,Fixed,04/Jul/24 09:50,20/Sep/24 09:27,
+Bug,HIVE-28347,13583729,"Make a UDAF 'collect_set' work with complex types, even when map-side aggregation is disabled.",Jeongdae Kim,Jeongdae Kim,Minor,Resolved,Fixed,25/Jun/24 06:09,24/Sep/24 02:15,
+Bug,HIVE-28262,13579468,Single column use MultiDelimitSerDe parse column error,laughing_vzr,laughing_vzr,Major,Resolved,Fixed,16/May/24 07:21,25/Sep/24 04:44,16/May/24 00:00
+Bug,HIVE-27792,13553831,Corrected wrong hive-site.xml in docker,xiaolin84250,xiaolin84250,Major,Resolved,Fixed,12/Oct/23 09:44,10/Jul/24 14:26,14/Oct/23 00:00
+Bug,HIVE-27658,13549213,Error resolving join keys during conversion to dynamic partition hashjoin,zabetak,bigdata_zoodev,Major,Closed,Fixed,31/Aug/23 02:33,29/Mar/24 17:50,
+Bug,HIVE-27631,13547694,Fix CCE when set fs.hdfs.impl other than DistributedFileSystem,maobaolong,maobaolong,Major,Closed,Fixed,17/Aug/23 08:53,29/Mar/24 17:49,
+Bug,HIVE-27480,13542226,OFFSET without ORDER BY generates wrong results,okumin,okumin,Major,Resolved,Fixed,02/Jul/23 14:07,08/Sep/23 13:51,
+Bug,HIVE-27439,13540001,"Support space in Decimal(precision, scale) format",xleesf,xleesf,Minor,Closed,Fixed,14/Jun/23 07:47,15/Aug/23 06:33,
+Bug,HIVE-27357,13536709,Map-side SMB Join returns incorrect result when it 2 tables have different bucket size,seonggon,seonggon,Major,Resolved,Fixed,18/May/23 08:45,24/Sep/24 02:15,
+Bug,HIVE-27344,13536203,ORC RecordReaderImpl throws NPE when close() is called from the constructor,seonggon,seonggon,Major,Closed,Fixed,15/May/23 09:58,15/Aug/23 06:33,
+Bug,HIVE-27324,13535248,Hive query with NOT IN condition is giving incorrect results when the sub query table contains the null value.,diksha193,shobika,Major,Closed,Fixed,06/May/23 05:57,29/Mar/24 17:49,
+Bug,HIVE-27268,13532938,Hive.getPartitionsByNames should not enforce SessionState to be available,henrib,henrib,Minor,Closed,Fixed,17/Apr/23 19:01,15/Aug/23 06:33,
+Bug,HIVE-26863,13514081,Fix TestArrowColumnarBatchSerDe test failures in branch-3.1,Aggarwal_Raghav,Aggarwal_Raghav,Major,Resolved,Won't Fix,15/Dec/22 17:53,09/May/24 15:00,
+Bug,HIVE-26819,13510559,Vectorization: wrong results when filter on repeating map key orc table,yigress,yigress,Minor,Resolved,Fixed,07/Dec/22 18:59,09/Dec/22 01:28,
+Bug,HIVE-26775,13505908,Backport HIVE-20213: Upgrade Calcite to 1.19.0,Aggarwal_Raghav,Aggarwal_Raghav,Major,Resolved,Won't Do,25/Nov/22 09:49,09/May/24 15:04,
+Bug,HIVE-26522,13480497,Test for HIVE-22033 and backport to 3.1 and 2.3,planka,planka,Major,Closed,Fixed,07/Sep/22 14:36,15/Aug/23 06:33,
+Bug,HIVE-26396,13471725,The trunc function has a problem with precision interception and the result has many 0,simhadri-g,phZhou,Blocker,Closed,Fixed,15/Jul/22 08:21,16/Nov/22 13:50,15/Jul/23 00:00
+Bug,HIVE-26374,13470421,Query based compaction fails for tables with CDT and columns with Reserved Keywords,chiran54321,chiran54321,Major,Closed,Fixed,06/Jul/22 21:28,16/Nov/22 13:50,
+Bug,HIVE-26197,13442819,Hive - Upgrade Ant to 1.10.11 due to CVE-2021-36373 and CVE-2021-36374,danielzhu,danielzhu,Major,Closed,Fixed,02/May/22 16:14,16/Nov/22 13:50,
+Bug,HIVE-26184,13442239,COLLECT_SET with GROUP BY is very slow when some keys are highly skewed,okumin,okumin,Major,Closed,Fixed,28/Apr/22 07:56,16/Nov/22 13:50,
+Bug,HIVE-24404,13341245,Hive getUserName close db makes client operations lost metaStoreClient connection,abstractdog,artiship,Major,Closed,Fixed,18/Nov/20 07:52,15/Aug/23 06:33,
+Bug,HIVE-24316,13337568,Upgrade ORC from 1.5.6 to 1.5.8 in branch-3.1,dongjoon,dongjoon,Major,Closed,Fixed,28/Oct/20 04:41,09/Apr/22 07:03,
+Bug,HIVE-21375,13219096,Closing TransactionBatch closes FileSystem for other batches in Hive streaming v1,szita,Absolutesantaja,Minor,Resolved,Fixed,02/Mar/19 17:25,02/Oct/20 08:21,
+Bug,HIVE-20067,13169773,fix InsertEvent on mm tables to not cause failing capability checks,kgyrtkirk,kgyrtkirk,Major,Closed,Fixed,03/Jul/18 11:19,25/Sep/24 11:23,
+Bug,HIVE-20038,13169293,Update queries on non-bucketed + partitioned tables throws NPE,prasanth_j,Kavan,Major,Closed,Fixed,29/Jun/18 23:46,25/Sep/24 11:22,

@@ -1,0 +1,13 @@
+Issue Type,Issue key,Issue id,Summary,Assignee,Reporter,Priority,Status,Resolution,Created,Updated,Due Date
+Bug,HIVE-21873,13239466,Hive Cann't drop table in different hdfs clusters,,ico01,Major,Resolved,Won't Fix,14/Jun/19 07:54,21/Jun/19 02:29,14/Jun/19 00:00
+Bug,HIVE-21009,13202556,LDAP - Specify binddn for ldap-search,mcginnda,tuhren,Major,Closed,Fixed,05/Dec/18 14:50,17/Nov/22 08:54,
+Bug,HIVE-20210,13173121,Simple Fetch optimizer should lead to MapReduce when filter on non-partition column and conversion is minimal,xilangyan,xilangyan,Major,Closed,Fixed,19/Jul/18 07:27,17/Nov/22 08:55,19/Jul/18 00:00
+Bug,HIVE-19839,13165064,sssssssssssss,,sadashivmunde@gmail.com,Major,Resolved,Invalid,09/Jun/18 02:11,12/Jun/18 18:57,30/Jun/18 00:00
+Bug,HIVE-19638,13160809,Configuration not passed to ORC Reader.Options,rentao,rentao,Major,Resolved,Duplicate,21/May/18 20:07,27/Mar/19 00:10,
+Bug,HIVE-19101,13149919,Apply rule [HiveJoinPushTransitivePredicatesRule] is getting stuck when there are huge number of predicates ,,ganeshas,Major,Resolved,Duplicate,04/Apr/18 07:24,27/Feb/24 22:24,
+Bug,HIVE-18284,13125273,NPE when inserting data with 'distribute by' clause with dynpart sort optimization,srahman,tanakahda,Major,Closed,Fixed,15/Dec/17 16:36,17/Nov/22 13:14,
+Bug,HIVE-18177,13121606,Error creating temporary staging folder on HDFS when creating Hive table,,Aegeaner,Major,Resolved,Won't Fix,29/Nov/17 10:17,01/Dec/17 16:41,
+Bug,HIVE-18115,13119984,Fix schema version info for Hive-2.3.2,osayankin,osayankin,Minor,Resolved,Invalid,21/Nov/17 15:54,02/Apr/18 16:56,
+Bug,HIVE-17831,13110480,HiveSemanticAnalyzerHookContext does not update the HiveOperation after sem.analyze() is called,aihuaxu,spena,Major,Closed,Fixed,18/Oct/17 21:05,22/May/18 23:14,
+Bug,HIVE-17429,13099317,Hive JDBC doesn't return rows when querying Impala,zamsden,zamsden,Major,Closed,Fixed,01/Sep/17 21:19,24/Jun/19 19:31,
+Bug,HIVE-16939,13081643,metastore error: 'export: -Dproc_metastore : not a valid identifier',ferhui,ferhui,Major,Closed,Fixed,22/Jun/17 04:35,04/Apr/18 00:11,

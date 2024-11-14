@@ -1,0 +1,9 @@
+Issue Type,Issue key,Issue id,Summary,Assignee,Reporter,Priority,Status,Resolution,Created,Updated,Due Date
+Bug,HIVE-27140,13528433,Set HADOOP_PROXY_USER cause  hiveMetaStoreClient close everytime,chenruotao,chenruotao,Major,Closed,Fixed,14/Mar/23 12:47,15/Aug/23 06:33,14/Mar/23 00:00
+Bug,HIVE-26522,13480497,Test for HIVE-22033 and backport to 3.1 and 2.3,planka,planka,Major,Closed,Fixed,07/Sep/22 14:36,15/Aug/23 06:33,
+Bug,HIVE-26184,13442239,COLLECT_SET with GROUP BY is very slow when some keys are highly skewed,okumin,okumin,Major,Closed,Fixed,28/Apr/22 07:56,16/Nov/22 13:50,
+Bug,HIVE-26114,13437675,Fix jdbc connection hiveserver2 using dfs command with prefix space will cause exception,Zing,Zing,Major,Closed,Fixed,04/Apr/22 17:02,16/Nov/22 13:50,
+Bug,HIVE-25561,13403417,Killed task should not commit file.,zhengchenyu,zhengchenyu,Major,Closed,Fixed,27/Sep/21 04:04,17/Nov/22 08:48,
+Bug,HIVE-24553,13347042,Exclude calcite from test-jar dependency of hive-exec,viirya,viirya,Blocker,Resolved,Fixed,20/Dec/20 18:19,21/Dec/20 18:19,
+Bug,HIVE-24551,13346476,Hive should include transitive dependencies from calcite after shading it,csun,csun,Blocker,Resolved,Fixed,17/Dec/20 02:23,21/Dec/20 18:19,
+Bug,HIVE-24512,13345116,Exclude calcite in packaging Hive,viirya,viirya,Major,Resolved,Fixed,09/Dec/20 17:37,18/Dec/20 17:32,

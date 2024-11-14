@@ -1,0 +1,14 @@
+Issue Type,Issue key,Issue id,Summary,Assignee,Reporter,Priority,Status,Resolution,Created,Updated,Due Date
+Bug,HIVE-21873,13239466,Hive Cann't drop table in different hdfs clusters,,ico01,Major,Resolved,Won't Fix,14/Jun/19 07:54,21/Jun/19 02:29,14/Jun/19 00:00
+Bug,HIVE-21081,13207343,DATE_FORMAT incorrectly returns results on the last week of the calendar year,,WilsonLu,Minor,Resolved,Not A Problem,02/Jan/19 19:59,12/Feb/19 04:42,
+Bug,HIVE-20441,13180507,NPE in GenericUDF  when hive.allow.udf.load.on.demand is set to true,dengzh,BIGrey,Major,Closed,Fixed,22/Aug/18 15:50,17/Nov/22 08:55,
+Bug,HIVE-20304,13176667,"When hive.optimize.skewjoin and hive.auto.convert.join are both set to true, and the execution engine is mr, same stage may launch twice due to the wrong generated plan",BIGrey,BIGrey,Major,Closed,Duplicate,03/Aug/18 09:21,16/Nov/22 13:50,
+Bug,HIVE-20036,13169159,Hive Compactor MapReduce  task keeps failing due to wrong hadoop URI.,Matrix0xCC,Matrix0xCC,Major,Resolved,Not A Bug,29/Jun/18 13:35,16/Aug/18 05:02,07/Jun/19 00:00
+Bug,HIVE-19502,13158722,Unable to insert values into table stored by JdbcStorageHandler,,Vakulenchuk,Blocker,Resolved,Duplicate,11/May/18 13:13,28/Jan/20 17:28,
+Bug,HIVE-19295,13155073,Some multiple inserts do not work on MR engine,osayankin,osayankin,Blocker,Resolved,Won't Fix,25/Apr/18 09:35,17/Jan/19 11:31,
+Bug,HIVE-19286,13154768,NPE in MERGE operator on MR mode,osayankin,osayankin,Blocker,Resolved,Won't Fix,24/Apr/18 11:17,17/Jan/19 11:29,
+Bug,HIVE-18888,13143061,Replace synchronizedMap with ConcurrentHashMap,akolb,akolb,Major,Closed,Fixed,07/Mar/18 01:08,22/May/18 23:14,
+Bug,HIVE-18786,13140559,NPE in Hive windowing functions,dongwook,bien,Critical,Closed,Fixed,23/Feb/18 17:50,26/Apr/24 04:28,
+Bug,HIVE-18767,13140098,Some alterPartitions invocations throw 'NumberFormatException: null',massdosage@gmail.com,yumwang,Major,Closed,Fixed,22/Feb/18 03:17,17/Nov/22 08:55,
+Bug,HIVE-18707,13138314,Dropping database via HiveMetastoreClient involves useless work,akolb,akolb,Major,Resolved,Duplicate,13/Feb/18 19:36,13/Feb/18 19:38,
+Bug,HIVE-16886,13079310,HMS log notifications may have duplicated event IDs if multiple HMS are running concurrently,anishek,spena,Major,Closed,Fixed,12/Jun/17 21:00,27/Jul/18 05:14,

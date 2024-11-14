@@ -1,0 +1,5 @@
+Issue Type,Issue key,Issue id,Summary,Assignee,Reporter,Priority,Status,Resolution,Created,Updated,Due Date
+Bug,HIVE-27960,13562209,Invalid function error when using custom udaf,gaoxiong,gaoxiong,Major,Closed,Fixed,18/Dec/23 13:29,29/Mar/24 17:49,
+Bug,HIVE-27315,13534916,DynamicPartitionPruningOptimization.generateSemiJoinOperatorPlan throws NPE when hive.tez.dynamic.semijoin.reduction=true,,fangbo_worker,Major,Resolved,Duplicate,04/May/23 06:22,07/Aug/23 10:55,
+Bug,HIVE-26872,13514699,INSERT UNION with LATERAL  VIEW does not produce data,,fangbo_worker,Major,Resolved,Duplicate,19/Dec/22 08:34,05/Jan/23 04:56,
+Bug,HIVE-26434,13473840,HMS thrift method recv_get_table_objects_by_name exception list is broken,chengpan,chengpan,Major,Resolved,Fixed,27/Jul/22 17:53,24/Nov/22 00:38,
