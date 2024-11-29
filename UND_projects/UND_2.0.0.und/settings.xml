@@ -144,12 +144,6 @@
                           <dir
                             name="cli"/>
                           <dir
-                            name="hs2connection"/>
-                          <dir
-                            name="logs"/>
-                          <dir
-                            name="schematool"/>
-                          <dir
                             name="util"/>
                         </dir>
                       </dir>
@@ -168,36 +162,6 @@
                           name="beeline">
                           <dir
                             name="cli"/>
-                          <dir
-                            name="hs2connection"/>
-                          <dir
-                            name="schematool"/>
-                        </dir>
-                      </dir>
-                    </dir>
-                  </dir>
-                </dir>
-              </dir>
-            </dir>
-            <dir
-              name="classification">
-              <dir
-                name="src">
-                <dir
-                  name="java">
-                  <dir
-                    name="org">
-                    <dir
-                      name="apache">
-                      <dir
-                        name="hadoop">
-                        <dir
-                          name="hive">
-                          <dir
-                            name="common">
-                            <dir
-                              name="classification"/>
-                          </dir>
                         </dir>
                       </dir>
                     </dir>
@@ -264,16 +228,9 @@
                           <dir
                             name="common">
                             <dir
-                              name="auth"/>
-                            <dir
                               name="classification"/>
                             <dir
                               name="cli"/>
-                            <dir
-                              name="format">
-                              <dir
-                                name="datetime"/>
-                            </dir>
                             <dir
                               name="io"/>
                             <dir
@@ -281,8 +238,6 @@
                               <dir
                                 name="tez"/>
                             </dir>
-                            <dir
-                              name="log"/>
                             <dir
                               name="metrics">
                               <dir
@@ -294,20 +249,11 @@
                               name="type"/>
                           </dir>
                           <dir
-                            name="conf">
-                            <dir
-                              name="valcoersion"/>
-                          </dir>
+                            name="conf"/>
                           <dir
                             name="ql">
                             <dir
-                              name="lib"/>
-                            <dir
                               name="log"/>
-                            <dir
-                              name="metadata"/>
-                            <dir
-                              name="parse"/>
                           </dir>
                         </dir>
                       </dir>
@@ -319,10 +265,7 @@
                             name="util"/>
                         </dir>
                         <dir
-                          name="http">
-                          <dir
-                            name="security"/>
-                        </dir>
+                          name="http"/>
                       </dir>
                     </dir>
                   </dir>
@@ -340,16 +283,6 @@
                           <dir
                             name="common">
                             <dir
-                              name="format">
-                              <dir
-                                name="datetime"/>
-                            </dir>
-                            <dir
-                              name="jsonexplain">
-                              <dir
-                                name="tez"/>
-                            </dir>
-                            <dir
                               name="metrics">
                               <dir
                                 name="metrics2"/>
@@ -359,11 +292,6 @@
                           </dir>
                           <dir
                             name="conf"/>
-                          <dir
-                            name="ql">
-                            <dir
-                              name="log"/>
-                          </dir>
                         </dir>
                       </dir>
                       <dir
@@ -462,72 +390,6 @@
                               name="mr"/>
                             <dir
                               name="serde2"/>
-                            <dir
-                              name="udaf">
-                              <dir
-                                name="example"/>
-                            </dir>
-                          </dir>
-                        </dir>
-                      </dir>
-                    </dir>
-                  </dir>
-                </dir>
-              </dir>
-            </dir>
-            <dir
-              name="druid-handler">
-              <dir
-                name="src">
-                <dir
-                  name="java">
-                  <dir
-                    name="org">
-                    <dir
-                      name="apache">
-                      <dir
-                        name="hadoop">
-                        <dir
-                          name="hive">
-                          <dir
-                            name="druid">
-                            <dir
-                              name="conf"/>
-                            <dir
-                              name="io"/>
-                            <dir
-                              name="json"/>
-                            <dir
-                              name="security"/>
-                            <dir
-                              name="serde"/>
-                          </dir>
-                        </dir>
-                      </dir>
-                    </dir>
-                  </dir>
-                </dir>
-                <dir
-                  name="test">
-                  <dir
-                    name="org">
-                    <dir
-                      name="apache">
-                      <dir
-                        name="hadoop">
-                        <dir
-                          name="hive">
-                          <dir
-                            name="druid">
-                            <dir
-                              name="io"/>
-                            <dir
-                              name="serde"/>
-                          </dir>
-                          <dir
-                            name="ql">
-                            <dir
-                              name="io"/>
                           </dir>
                         </dir>
                       </dir>
@@ -1041,15 +903,7 @@
                           <dir
                             name="hplsql">
                             <dir
-                              name="executor"/>
-                            <dir
                               name="functions"/>
-                            <dir
-                              name="objects"/>
-                            <dir
-                              name="packages"/>
-                            <dir
-                              name="udf"/>
                           </dir>
                         </dir>
                       </dir>
@@ -1067,12 +921,7 @@
                         <dir
                           name="hive">
                           <dir
-                            name="hplsql">
-                            <dir
-                              name="objects"/>
-                            <dir
-                              name="udf"/>
-                          </dir>
+                            name="hplsql"/>
                         </dir>
                       </dir>
                     </dir>
@@ -1113,162 +962,6 @@
                           name="hive">
                           <dir
                             name="hwi"/>
-                        </dir>
-                      </dir>
-                    </dir>
-                  </dir>
-                </dir>
-              </dir>
-            </dir>
-            <dir
-              name="iceberg">
-              <dir
-                name="iceberg-catalog">
-                <dir
-                  name="src">
-                  <dir
-                    name="main">
-                    <dir
-                      name="java">
-                      <dir
-                        name="org">
-                        <dir
-                          name="apache">
-                          <dir
-                            name="iceberg">
-                            <dir
-                              name="hive"/>
-                          </dir>
-                        </dir>
-                      </dir>
-                    </dir>
-                  </dir>
-                  <dir
-                    name="test">
-                    <dir
-                      name="java">
-                      <dir
-                        name="org">
-                        <dir
-                          name="apache">
-                          <dir
-                            name="iceberg">
-                            <dir
-                              name="hadoop"/>
-                            <dir
-                              name="hive"/>
-                          </dir>
-                        </dir>
-                      </dir>
-                    </dir>
-                  </dir>
-                </dir>
-              </dir>
-              <dir
-                name="iceberg-handler">
-                <dir
-                  name="src">
-                  <dir
-                    name="main">
-                    <dir
-                      name="java">
-                      <dir
-                        name="org">
-                        <dir
-                          name="apache">
-                          <dir
-                            name="iceberg">
-                            <dir
-                              name="data"/>
-                            <dir
-                              name="mr">
-                              <dir
-                                name="hive">
-                                <dir
-                                  name="actions"/>
-                                <dir
-                                  name="compaction"/>
-                                <dir
-                                  name="plan"/>
-                                <dir
-                                  name="serde">
-                                  <dir
-                                    name="objectinspector"/>
-                                </dir>
-                                <dir
-                                  name="udf"/>
-                                <dir
-                                  name="vector"/>
-                                <dir
-                                  name="writer"/>
-                              </dir>
-                              <dir
-                                name="mapred"/>
-                              <dir
-                                name="mapreduce"/>
-                            </dir>
-                            <dir
-                              name="orc"/>
-                            <dir
-                              name="parquet"/>
-                          </dir>
-                        </dir>
-                      </dir>
-                    </dir>
-                  </dir>
-                  <dir
-                    name="test">
-                    <dir
-                      name="java">
-                      <dir
-                        name="org">
-                        <dir
-                          name="apache">
-                          <dir
-                            name="iceberg">
-                            <dir
-                              name="data"/>
-                            <dir
-                              name="mr">
-                              <dir
-                                name="hive">
-                                <dir
-                                  name="serde">
-                                  <dir
-                                    name="objectinspector"/>
-                                </dir>
-                                <dir
-                                  name="vector"/>
-                                <dir
-                                  name="writer"/>
-                              </dir>
-                            </dir>
-                            <dir
-                              name="util"/>
-                          </dir>
-                        </dir>
-                      </dir>
-                    </dir>
-                  </dir>
-                </dir>
-              </dir>
-              <dir
-                name="patched-iceberg-core">
-                <dir
-                  name="src">
-                  <dir
-                    name="main">
-                    <dir
-                      name="java">
-                      <dir
-                        name="org">
-                        <dir
-                          name="apache">
-                          <dir
-                            name="iceberg">
-                            <dir
-                              name="hadoop"/>
-                          </dir>
                         </dir>
                       </dir>
                     </dir>
@@ -1375,32 +1068,6 @@
                     </dir>
                   </dir>
                 </dir>
-                <dir
-                  name="udf-vectorized-badexample">
-                  <dir
-                    name="src">
-                    <dir
-                      name="main">
-                      <dir
-                        name="java">
-                        <dir
-                          name="hive">
-                          <dir
-                            name="it">
-                            <dir
-                              name="custom">
-                              <dir
-                                name="udfs">
-                                <dir
-                                  name="vector"/>
-                              </dir>
-                            </dir>
-                          </dir>
-                        </dir>
-                      </dir>
-                    </dir>
-                  </dir>
-                </dir>
               </dir>
               <dir
                 name="hcatalog-unit">
@@ -1435,32 +1102,6 @@
                 </dir>
               </dir>
               <dir
-                name="hive-blobstore">
-                <dir
-                  name="src">
-                  <dir
-                    name="test">
-                    <dir
-                      name="java">
-                      <dir
-                        name="org">
-                        <dir
-                          name="apache">
-                          <dir
-                            name="hadoop">
-                            <dir
-                              name="hive">
-                              <dir
-                                name="cli"/>
-                            </dir>
-                          </dir>
-                        </dir>
-                      </dir>
-                    </dir>
-                  </dir>
-                </dir>
-              </dir>
-              <dir
                 name="hive-jmh">
                 <dir
                   name="src">
@@ -1473,51 +1114,15 @@
                         <dir
                           name="apache">
                           <dir
-                            name="hadoop">
-                            <dir
-                              name="hive">
-                              <dir
-                                name="ql">
-                                <dir
-                                  name="udf">
-                                  <dir
-                                    name="ptf"/>
-                                </dir>
-                              </dir>
-                            </dir>
-                          </dir>
-                          <dir
                             name="hive">
                             <dir
                               name="benchmark">
-                              <dir
-                                name="calcite"/>
-                              <dir
-                                name="hash"/>
-                              <dir
-                                name="ql">
-                                <dir
-                                  name="exec"/>
-                              </dir>
                               <dir
                                 name="serde"/>
                               <dir
                                 name="storage"/>
                               <dir
-                                name="udf">
-                                <dir
-                                  name="json_read"/>
-                              </dir>
-                              <dir
-                                name="vectorization">
-                                <dir
-                                  name="mapjoin">
-                                  <dir
-                                    name="load"/>
-                                </dir>
-                                <dir
-                                  name="operators"/>
-                              </dir>
+                                name="vectorization"/>
                             </dir>
                           </dir>
                         </dir>
@@ -1538,20 +1143,6 @@
                         name="org">
                         <dir
                           name="apache">
-                          <dir
-                            name="hadoop">
-                            <dir
-                              name="hive">
-                              <dir
-                                name="ql">
-                                <dir
-                                  name="txn">
-                                  <dir
-                                    name="compactor"/>
-                                </dir>
-                              </dir>
-                            </dir>
-                          </dir>
                           <dir
                             name="hive">
                             <dir
@@ -1574,11 +1165,14 @@
                       <dir
                         name="org">
                         <dir
-                          name="hadoop">
+                          name="apache">
                           <dir
                             name="hive">
                             <dir
-                              name="jdbc"/>
+                              name="jdbc">
+                              <dir
+                                name="miniHS2"/>
+                            </dir>
                           </dir>
                         </dir>
                       </dir>
@@ -1599,41 +1193,16 @@
                               <dir
                                 name="hooks"/>
                               <dir
-                                name="io"/>
-                              <dir
-                                name="llap">
-                                <dir
-                                  name="ext"/>
-                              </dir>
-                              <dir
                                 name="metastore">
                                 <dir
-                                  name="cache"/>
-                                <dir
-                                  name="security"/>
-                                <dir
-                                  name="tools">
-                                  <dir
-                                    name="metatool"/>
-                                  <dir
-                                    name="schematool"/>
-                                </dir>
+                                  name="hbase"/>
                               </dir>
                               <dir
                                 name="ql">
                                 <dir
                                   name="history"/>
                                 <dir
-                                  name="log">
-                                  <dir
-                                    name="syslog"/>
-                                </dir>
-                                <dir
                                   name="metadata"/>
-                                <dir
-                                  name="parse"/>
-                                <dir
-                                  name="reexec"/>
                                 <dir
                                   name="security">
                                   <dir
@@ -1643,46 +1212,35 @@
                                   </dir>
                                 </dir>
                                 <dir
-                                  name="session"/>
-                                <dir
                                   name="txn">
                                   <dir
                                     name="compactor"/>
                                 </dir>
                               </dir>
                               <dir
-                                name="schq"/>
+                                name="serde2">
+                                <dir
+                                  name="dynamic_type"/>
+                              </dir>
                               <dir
-                                name="serde2"/>
+                                name="thrift"/>
                             </dir>
                           </dir>
                           <dir
                             name="hive">
                             <dir
-                              name="beeline">
-                              <dir
-                                name="hs2connection"/>
-                              <dir
-                                name="schematool"/>
-                            </dir>
+                              name="beeline"/>
                             <dir
                               name="jdbc">
                               <dir
                                 name="authorization"/>
                               <dir
                                 name="miniHS2"/>
-                              <dir
-                                name="saml"/>
                             </dir>
                             <dir
                               name="service">
                               <dir
-                                name="auth">
-                                <dir
-                                  name="jwt"/>
-                                <dir
-                                  name="saml"/>
-                              </dir>
+                                name="auth"/>
                               <dir
                                 name="cli">
                                 <dir
@@ -1692,8 +1250,6 @@
                                 <dir
                                   name="thrift"/>
                               </dir>
-                              <dir
-                                name="server"/>
                             </dir>
                           </dir>
                         </dir>
@@ -1701,8 +1257,6 @@
                     </dir>
                   </dir>
                 </dir>
-                <dir
-                  name="testUdf"/>
               </dir>
               <dir
                 name="hive-unit-hadoop2">
@@ -1720,13 +1274,6 @@
                             name="hadoop">
                             <dir
                               name="hive">
-                              <dir
-                                name="common"/>
-                              <dir
-                                name="metastore">
-                                <dir
-                                  name="security"/>
-                              </dir>
                               <dir
                                 name="ql">
                                 <dir
@@ -1760,24 +1307,6 @@
                         <dir
                           name="apache">
                           <dir
-                            name="hadoop">
-                            <dir
-                              name="hive">
-                              <dir
-                                name="cli"/>
-                              <dir
-                                name="ql">
-                                <dir
-                                  name="parse"/>
-                              </dir>
-                              <dir
-                                name="udf">
-                                <dir
-                                  name="example"/>
-                              </dir>
-                            </dir>
-                          </dir>
-                          <dir
                             name="hive"/>
                         </dir>
                       </dir>
@@ -1798,92 +1327,7 @@
                         <dir
                           name="apache">
                           <dir
-                            name="hadoop">
-                            <dir
-                              name="hive">
-                              <dir
-                                name="cli"/>
-                            </dir>
-                          </dir>
-                          <dir
                             name="hive"/>
-                        </dir>
-                      </dir>
-                    </dir>
-                  </dir>
-                </dir>
-              </dir>
-              <dir
-                name="qtest-druid">
-                <dir
-                  name="src">
-                  <dir
-                    name="main">
-                    <dir
-                      name="java">
-                      <dir
-                        name="org">
-                        <dir
-                          name="apache">
-                          <dir
-                            name="hive">
-                            <dir
-                              name="druid"/>
-                            <dir
-                              name="kafka"/>
-                          </dir>
-                        </dir>
-                      </dir>
-                    </dir>
-                  </dir>
-                </dir>
-              </dir>
-              <dir
-                name="qtest-iceberg">
-                <dir
-                  name="src">
-                  <dir
-                    name="test">
-                    <dir
-                      name="java">
-                      <dir
-                        name="org">
-                        <dir
-                          name="apache">
-                          <dir
-                            name="hadoop">
-                            <dir
-                              name="hive">
-                              <dir
-                                name="cli"/>
-                            </dir>
-                          </dir>
-                        </dir>
-                      </dir>
-                    </dir>
-                  </dir>
-                </dir>
-              </dir>
-              <dir
-                name="qtest-kudu">
-                <dir
-                  name="src">
-                  <dir
-                    name="test">
-                    <dir
-                      name="java">
-                      <dir
-                        name="org">
-                        <dir
-                          name="apache">
-                          <dir
-                            name="hadoop">
-                            <dir
-                              name="hive">
-                              <dir
-                                name="cli"/>
-                            </dir>
-                          </dir>
                         </dir>
                       </dir>
                     </dir>
@@ -1940,22 +1384,14 @@
                               <dir
                                 name="accumulo"/>
                               <dir
-                                name="cli">
-                                <dir
-                                  name="control"/>
-                              </dir>
-                              <dir
                                 name="hbase"/>
                               <dir
-                                name="kudu"/>
-                              <dir
-                                name="llap"/>
+                                name="metastore">
+                                <dir
+                                  name="hbase"/>
+                              </dir>
                               <dir
                                 name="ql">
-                                <dir
-                                  name="dataset"/>
-                                <dir
-                                  name="externalDB"/>
                                 <dir
                                   name="hooks"/>
                                 <dir
@@ -1965,12 +1401,6 @@
                                 </dir>
                                 <dir
                                   name="metadata"/>
-                                <dir
-                                  name="parse"/>
-                                <dir
-                                  name="qoption"/>
-                                <dir
-                                  name="scheduled"/>
                                 <dir
                                   name="security">
                                   <dir
@@ -1994,49 +1424,6 @@
                                 name="scripts"/>
                             </dir>
                           </dir>
-                          <dir
-                            name="hive">
-                            <dir
-                              name="beeline"/>
-                            <dir
-                              name="jdbc">
-                              <dir
-                                name="miniHS2"/>
-                            </dir>
-                          </dir>
-                        </dir>
-                      </dir>
-                    </dir>
-                  </dir>
-                  <dir
-                    name="test">
-                    <dir
-                      name="java">
-                      <dir
-                        name="org">
-                        <dir
-                          name="apache">
-                          <dir
-                            name="hadoop">
-                            <dir
-                              name="hive">
-                              <dir
-                                name="cli">
-                                <dir
-                                  name="control">
-                                  <dir
-                                    name="splitsupport">
-                                    <dir
-                                      name="split0"/>
-                                    <dir
-                                      name="split125"/>
-                                  </dir>
-                                </dir>
-                              </dir>
-                              <dir
-                                name="ql"/>
-                            </dir>
-                          </dir>
                         </dir>
                       </dir>
                     </dir>
@@ -2057,14 +1444,7 @@
                       <dir
                         name="hive">
                         <dir
-                          name="jdbc">
-                          <dir
-                            name="jwt"/>
-                          <dir
-                            name="logs"/>
-                          <dir
-                            name="saml"/>
-                        </dir>
+                          name="jdbc"/>
                       </dir>
                     </dir>
                   </dir>
@@ -2078,150 +1458,7 @@
                       <dir
                         name="hive">
                         <dir
-                          name="jdbc">
-                          <dir
-                            name="saml"/>
-                        </dir>
-                      </dir>
-                    </dir>
-                  </dir>
-                </dir>
-              </dir>
-            </dir>
-            <dir
-              name="jdbc-handler">
-              <dir
-                name="src">
-                <dir
-                  name="main">
-                  <dir
-                    name="java">
-                    <dir
-                      name="org">
-                      <dir
-                        name="apache">
-                        <dir
-                          name="hive">
-                          <dir
-                            name="storage">
-                            <dir
-                              name="jdbc">
-                              <dir
-                                name="conf"/>
-                              <dir
-                                name="dao"/>
-                              <dir
-                                name="exception"/>
-                              <dir
-                                name="spitter"/>
-                            </dir>
-                          </dir>
-                        </dir>
-                      </dir>
-                    </dir>
-                  </dir>
-                </dir>
-                <dir
-                  name="test">
-                  <dir
-                    name="java">
-                    <dir
-                      name="org">
-                      <dir
-                        name="apache">
-                        <dir
-                          name="hive">
-                          <dir
-                            name="storage">
-                            <dir
-                              name="jdbc">
-                              <dir
-                                name="conf"/>
-                              <dir
-                                name="dao"/>
-                            </dir>
-                          </dir>
-                        </dir>
-                      </dir>
-                    </dir>
-                  </dir>
-                </dir>
-              </dir>
-            </dir>
-            <dir
-              name="kafka-handler">
-              <dir
-                name="src">
-                <dir
-                  name="java">
-                  <dir
-                    name="org">
-                    <dir
-                      name="apache">
-                      <dir
-                        name="hadoop">
-                        <dir
-                          name="hive">
-                          <dir
-                            name="kafka"/>
-                        </dir>
-                      </dir>
-                    </dir>
-                  </dir>
-                </dir>
-                <dir
-                  name="test">
-                  <dir
-                    name="org">
-                    <dir
-                      name="apache">
-                      <dir
-                        name="hadoop">
-                        <dir
-                          name="hive">
-                          <dir
-                            name="kafka"/>
-                        </dir>
-                      </dir>
-                    </dir>
-                  </dir>
-                </dir>
-              </dir>
-            </dir>
-            <dir
-              name="kudu-handler">
-              <dir
-                name="src">
-                <dir
-                  name="java">
-                  <dir
-                    name="org">
-                    <dir
-                      name="apache">
-                      <dir
-                        name="hadoop">
-                        <dir
-                          name="hive">
-                          <dir
-                            name="kudu"/>
-                        </dir>
-                      </dir>
-                    </dir>
-                  </dir>
-                </dir>
-                <dir
-                  name="test">
-                  <dir
-                    name="org">
-                    <dir
-                      name="apache">
-                      <dir
-                        name="hadoop">
-                        <dir
-                          name="hive">
-                          <dir
-                            name="kudu"/>
-                        </dir>
+                          name="jdbc"/>
                       </dir>
                     </dir>
                   </dir>
@@ -2245,9 +1482,7 @@
                           <dir
                             name="llap">
                             <dir
-                              name="coordinator"/>
-                            <dir
-                              name="ext"/>
+                              name="configuration"/>
                             <dir
                               name="io">
                               <dir
@@ -2259,19 +1494,7 @@
                                 name="impl"/>
                             </dir>
                             <dir
-                              name="security"/>
-                            <dir
                               name="tez"/>
-                            <dir
-                              name="tezplugins">
-                              <dir
-                                name="helpers"/>
-                            </dir>
-                          </dir>
-                          <dir
-                            name="registry">
-                            <dir
-                              name="impl"/>
                           </dir>
                         </dir>
                       </dir>
@@ -2291,15 +1514,7 @@
                           <dir
                             name="llap">
                             <dir
-                              name="registry">
-                              <dir
-                                name="impl"/>
-                            </dir>
-                          </dir>
-                          <dir
-                            name="registry">
-                            <dir
-                              name="impl"/>
+                              name="tez"/>
                           </dir>
                         </dir>
                       </dir>
@@ -2333,11 +1548,6 @@
                                   <dir
                                     name="rpc"/>
                                 </dir>
-                                <dir
-                                  name="plugin">
-                                  <dir
-                                    name="rpc"/>
-                                </dir>
                               </dir>
                             </dir>
                           </dir>
@@ -2359,15 +1569,7 @@
                           <dir
                             name="llap">
                             <dir
-                              name="counters"/>
-                            <dir
                               name="impl"/>
-                            <dir
-                              name="io"/>
-                            <dir
-                              name="log"/>
-                            <dir
-                              name="metrics"/>
                             <dir
                               name="protocol"/>
                             <dir
@@ -2393,37 +1595,8 @@
                           <dir
                             name="llap">
                             <dir
-                              name="io"/>
-                            <dir
-                              name="metrics"/>
-                            <dir
                               name="testhelpers"/>
-                            <dir
-                              name="tez"/>
                           </dir>
-                        </dir>
-                      </dir>
-                    </dir>
-                  </dir>
-                </dir>
-              </dir>
-            </dir>
-            <dir
-              name="llap-ext-client">
-              <dir
-                name="src">
-                <dir
-                  name="java">
-                  <dir
-                    name="org">
-                    <dir
-                      name="apache">
-                      <dir
-                        name="hadoop">
-                        <dir
-                          name="hive">
-                          <dir
-                            name="llap"/>
                         </dir>
                       </dir>
                     </dir>
@@ -2450,14 +1623,7 @@
                             <dir
                               name="cache"/>
                             <dir
-                              name="cli">
-                              <dir
-                                name="service"/>
-                              <dir
-                                name="status"/>
-                            </dir>
-                            <dir
-                              name="configuration"/>
+                              name="cli"/>
                             <dir
                               name="counters"/>
                             <dir
@@ -2488,9 +1654,9 @@
                                 name="metadata"/>
                             </dir>
                             <dir
-                              name="log"/>
-                            <dir
                               name="metrics"/>
+                            <dir
+                              name="old"/>
                             <dir
                               name="security"/>
                             <dir
@@ -2516,46 +1682,13 @@
                             <dir
                               name="cache"/>
                             <dir
-                              name="cli">
-                              <dir
-                                name="service"/>
-                              <dir
-                                name="status"/>
-                            </dir>
-                            <dir
                               name="daemon">
                               <dir
                                 name="impl">
                                 <dir
                                   name="comparator"/>
                               </dir>
-                              <dir
-                                name="services">
-                                <dir
-                                  name="impl"/>
-                              </dir>
                             </dir>
-                            <dir
-                              name="io">
-                              <dir
-                                name="api">
-                                <dir
-                                  name="impl"/>
-                              </dir>
-                              <dir
-                                name="encoded"/>
-                            </dir>
-                            <dir
-                              name="metrics"/>
-                            <dir
-                              name="registry">
-                              <dir
-                                name="impl"/>
-                            </dir>
-                            <dir
-                              name="security"/>
-                            <dir
-                              name="shufflehandler"/>
                           </dir>
                         </dir>
                       </dir>
@@ -2583,13 +1716,7 @@
                             <dir
                               name="tezplugins">
                               <dir
-                                name="endpoint"/>
-                              <dir
                                 name="helpers"/>
-                              <dir
-                                name="metrics"/>
-                              <dir
-                                name="scheduler"/>
                             </dir>
                           </dir>
                         </dir>
@@ -2610,10 +1737,7 @@
                           <dir
                             name="llap">
                             <dir
-                              name="tezplugins">
-                              <dir
-                                name="metrics"/>
-                            </dir>
+                              name="tezplugins"/>
                           </dir>
                         </dir>
                       </dir>
@@ -2624,81 +1748,6 @@
             </dir>
             <dir
               name="metastore">
-              <dir
-                name="src">
-                <dir
-                  name="java">
-                  <dir
-                    name="org">
-                    <dir
-                      name="apache">
-                      <dir
-                        name="hadoop">
-                        <dir
-                          name="hive">
-                          <dir
-                            name="metastore">
-                            <dir
-                              name="filemeta"/>
-                          </dir>
-                        </dir>
-                      </dir>
-                    </dir>
-                  </dir>
-                </dir>
-              </dir>
-            </dir>
-            <dir
-              name="parser">
-              <dir
-                name="src">
-                <dir
-                  name="java">
-                  <dir
-                    name="org">
-                    <dir
-                      name="apache">
-                      <dir
-                        name="hadoop">
-                        <dir
-                          name="hive">
-                          <dir
-                            name="ql">
-                            <dir
-                              name="parse"/>
-                          </dir>
-                        </dir>
-                      </dir>
-                    </dir>
-                  </dir>
-                </dir>
-                <dir
-                  name="test">
-                  <dir
-                    name="org">
-                    <dir
-                      name="apache">
-                      <dir
-                        name="hadoop">
-                        <dir
-                          name="hive">
-                          <dir
-                            name="ql">
-                            <dir
-                              name="parse">
-                              <dir
-                                name="positive"/>
-                            </dir>
-                          </dir>
-                        </dir>
-                      </dir>
-                    </dir>
-                  </dir>
-                </dir>
-              </dir>
-            </dir>
-            <dir
-              name="ql">
               <dir
                 name="src">
                 <dir
@@ -2716,20 +1765,22 @@
                             <dir
                               name="hive">
                               <dir
-                                name="ql">
+                                name="metastore">
                                 <dir
-                                  name="hooks">
-                                  <dir
-                                    name="proto"/>
-                                </dir>
+                                  name="hbase"/>
                               </dir>
                             </dir>
                           </dir>
                         </dir>
                       </dir>
                     </dir>
+                  </dir>
+                  <dir
+                    name="thrift">
                     <dir
-                      name="gen-test">
+                      name="gen-cpp"/>
+                    <dir
+                      name="gen-javabean">
                       <dir
                         name="org">
                         <dir
@@ -2739,12 +1790,9 @@
                             <dir
                               name="hive">
                               <dir
-                                name="ql">
+                                name="metastore">
                                 <dir
-                                  name="io">
-                                  <dir
-                                    name="protobuf"/>
-                                </dir>
+                                  name="api"/>
                               </dir>
                             </dir>
                           </dir>
@@ -2752,6 +1800,155 @@
                       </dir>
                     </dir>
                   </dir>
+                </dir>
+                <dir
+                  name="java">
+                  <dir
+                    name="org">
+                    <dir
+                      name="apache">
+                      <dir
+                        name="hadoop">
+                        <dir
+                          name="hive">
+                          <dir
+                            name="metastore">
+                            <dir
+                              name="events"/>
+                            <dir
+                              name="filemeta"/>
+                            <dir
+                              name="hbase">
+                              <dir
+                                name="stats"/>
+                            </dir>
+                            <dir
+                              name="hooks"/>
+                            <dir
+                              name="parser"/>
+                            <dir
+                              name="partition">
+                              <dir
+                                name="spec"/>
+                            </dir>
+                            <dir
+                              name="tools"/>
+                            <dir
+                              name="txn"/>
+                          </dir>
+                        </dir>
+                      </dir>
+                    </dir>
+                  </dir>
+                </dir>
+                <dir
+                  name="model">
+                  <dir
+                    name="org">
+                    <dir
+                      name="apache">
+                      <dir
+                        name="hadoop">
+                        <dir
+                          name="hive">
+                          <dir
+                            name="metastore">
+                            <dir
+                              name="model"/>
+                          </dir>
+                        </dir>
+                      </dir>
+                    </dir>
+                  </dir>
+                </dir>
+                <dir
+                  name="test">
+                  <dir
+                    name="org">
+                    <dir
+                      name="apache">
+                      <dir
+                        name="hadoop">
+                        <dir
+                          name="hive">
+                          <dir
+                            name="metastore">
+                            <dir
+                              name="hbase"/>
+                            <dir
+                              name="txn"/>
+                          </dir>
+                        </dir>
+                      </dir>
+                    </dir>
+                  </dir>
+                </dir>
+              </dir>
+            </dir>
+            <dir
+              name="odbc">
+              <dir
+                name="src">
+                <dir
+                  name="cpp"/>
+                <dir
+                  name="test"/>
+              </dir>
+            </dir>
+            <dir
+              name="orc">
+              <dir
+                name="src">
+                <dir
+                  name="gen">
+                  <dir
+                    name="protobuf-java">
+                    <dir
+                      name="org">
+                      <dir
+                        name="apache">
+                        <dir
+                          name="orc"/>
+                      </dir>
+                    </dir>
+                  </dir>
+                </dir>
+                <dir
+                  name="java">
+                  <dir
+                    name="org">
+                    <dir
+                      name="apache">
+                      <dir
+                        name="orc">
+                        <dir
+                          name="impl"/>
+                      </dir>
+                    </dir>
+                  </dir>
+                </dir>
+                <dir
+                  name="test">
+                  <dir
+                    name="org">
+                    <dir
+                      name="apache">
+                      <dir
+                        name="orc">
+                        <dir
+                          name="impl"/>
+                      </dir>
+                    </dir>
+                  </dir>
+                </dir>
+              </dir>
+            </dir>
+            <dir
+              name="ql">
+              <dir
+                name="src">
+                <dir
+                  name="gen">
                   <dir
                     name="thrift">
                     <dir
@@ -2794,379 +1991,7 @@
                           <dir
                             name="llap"/>
                           <dir
-                            name="metastore"/>
-                          <dir
                             name="ql">
-                            <dir
-                              name="cache">
-                              <dir
-                                name="results"/>
-                            </dir>
-                            <dir
-                              name="cleanup"/>
-                            <dir
-                              name="ddl">
-                              <dir
-                                name="database">
-                                <dir
-                                  name="alter">
-                                  <dir
-                                    name="location"/>
-                                  <dir
-                                    name="owner"/>
-                                  <dir
-                                    name="poperties"/>
-                                </dir>
-                                <dir
-                                  name="create"/>
-                                <dir
-                                  name="desc"/>
-                                <dir
-                                  name="drop"/>
-                                <dir
-                                  name="lock"/>
-                                <dir
-                                  name="show"/>
-                                <dir
-                                  name="showcreate"/>
-                                <dir
-                                  name="unlock"/>
-                                <dir
-                                  name="use"/>
-                              </dir>
-                              <dir
-                                name="dataconnector">
-                                <dir
-                                  name="alter">
-                                  <dir
-                                    name="owner"/>
-                                  <dir
-                                    name="properties"/>
-                                  <dir
-                                    name="url"/>
-                                </dir>
-                                <dir
-                                  name="create"/>
-                                <dir
-                                  name="desc"/>
-                                <dir
-                                  name="drop"/>
-                                <dir
-                                  name="show"/>
-                              </dir>
-                              <dir
-                                name="function">
-                                <dir
-                                  name="create"/>
-                                <dir
-                                  name="desc"/>
-                                <dir
-                                  name="drop"/>
-                                <dir
-                                  name="macro">
-                                  <dir
-                                    name="create"/>
-                                  <dir
-                                    name="drop"/>
-                                </dir>
-                                <dir
-                                  name="reload"/>
-                                <dir
-                                  name="show"/>
-                              </dir>
-                              <dir
-                                name="misc">
-                                <dir
-                                  name="conf"/>
-                                <dir
-                                  name="flags"/>
-                                <dir
-                                  name="hooks"/>
-                                <dir
-                                  name="metadata"/>
-                                <dir
-                                  name="msck"/>
-                              </dir>
-                              <dir
-                                name="privilege">
-                                <dir
-                                  name="grant"/>
-                                <dir
-                                  name="revoke"/>
-                                <dir
-                                  name="role">
-                                  <dir
-                                    name="create"/>
-                                  <dir
-                                    name="drop"/>
-                                  <dir
-                                    name="grant"/>
-                                  <dir
-                                    name="revoke"/>
-                                  <dir
-                                    name="set"/>
-                                  <dir
-                                    name="show"/>
-                                </dir>
-                                <dir
-                                  name="show">
-                                  <dir
-                                    name="grant"/>
-                                  <dir
-                                    name="principals"/>
-                                  <dir
-                                    name="rolegrant"/>
-                                </dir>
-                              </dir>
-                              <dir
-                                name="process">
-                                <dir
-                                  name="abort">
-                                  <dir
-                                    name="compaction"/>
-                                </dir>
-                                <dir
-                                  name="kill"/>
-                                <dir
-                                  name="show">
-                                  <dir
-                                    name="compactions"/>
-                                  <dir
-                                    name="transactions"/>
-                                </dir>
-                              </dir>
-                              <dir
-                                name="table">
-                                <dir
-                                  name="column">
-                                  <dir
-                                    name="add"/>
-                                  <dir
-                                    name="change"/>
-                                  <dir
-                                    name="replace"/>
-                                  <dir
-                                    name="show"/>
-                                  <dir
-                                    name="update"/>
-                                </dir>
-                                <dir
-                                  name="constraint">
-                                  <dir
-                                    name="add"/>
-                                  <dir
-                                    name="drop"/>
-                                </dir>
-                                <dir
-                                  name="convert"/>
-                                <dir
-                                  name="create">
-                                  <dir
-                                    name="like"/>
-                                  <dir
-                                    name="show"/>
-                                </dir>
-                                <dir
-                                  name="drop"/>
-                                <dir
-                                  name="execute"/>
-                                <dir
-                                  name="info">
-                                  <dir
-                                    name="desc">
-                                    <dir
-                                      name="formatter"/>
-                                  </dir>
-                                  <dir
-                                    name="show">
-                                    <dir
-                                      name="properties"/>
-                                    <dir
-                                      name="status">
-                                      <dir
-                                        name="formatter"/>
-                                    </dir>
-                                    <dir
-                                      name="tables"/>
-                                  </dir>
-                                </dir>
-                                <dir
-                                  name="lock">
-                                  <dir
-                                    name="show"/>
-                                </dir>
-                                <dir
-                                  name="misc">
-                                  <dir
-                                    name="columnstats"/>
-                                  <dir
-                                    name="owner"/>
-                                  <dir
-                                    name="preinsert"/>
-                                  <dir
-                                    name="properties"/>
-                                  <dir
-                                    name="rename"/>
-                                  <dir
-                                    name="touch"/>
-                                  <dir
-                                    name="truncate"/>
-                                </dir>
-                                <dir
-                                  name="partition">
-                                  <dir
-                                    name="add"/>
-                                  <dir
-                                    name="alter"/>
-                                  <dir
-                                    name="drop"/>
-                                  <dir
-                                    name="exchange"/>
-                                  <dir
-                                    name="rename"/>
-                                  <dir
-                                    name="set"/>
-                                  <dir
-                                    name="show"/>
-                                </dir>
-                                <dir
-                                  name="snapshotref">
-                                  <dir
-                                    name="branch">
-                                    <dir
-                                      name="create"/>
-                                    <dir
-                                      name="drop"/>
-                                    <dir
-                                      name="rename"/>
-                                  </dir>
-                                  <dir
-                                    name="tag">
-                                    <dir
-                                      name="create"/>
-                                    <dir
-                                      name="drop"/>
-                                  </dir>
-                                </dir>
-                                <dir
-                                  name="storage">
-                                  <dir
-                                    name="archive"/>
-                                  <dir
-                                    name="cluster"/>
-                                  <dir
-                                    name="compact"/>
-                                  <dir
-                                    name="concatenate"/>
-                                  <dir
-                                    name="serde"/>
-                                  <dir
-                                    name="set">
-                                    <dir
-                                      name="fileformat"/>
-                                    <dir
-                                      name="location"/>
-                                  </dir>
-                                  <dir
-                                    name="skewed"/>
-                                </dir>
-                              </dir>
-                              <dir
-                                name="view">
-                                <dir
-                                  name="create"/>
-                                <dir
-                                  name="drop"/>
-                                <dir
-                                  name="materialized">
-                                  <dir
-                                    name="alter">
-                                    <dir
-                                      name="rebuild"/>
-                                    <dir
-                                      name="rewrite"/>
-                                  </dir>
-                                  <dir
-                                    name="drop"/>
-                                  <dir
-                                    name="show"/>
-                                  <dir
-                                    name="update"/>
-                                </dir>
-                                <dir
-                                  name="properties"/>
-                                <dir
-                                  name="rename"/>
-                                <dir
-                                  name="show"/>
-                              </dir>
-                              <dir
-                                name="workloadmanagement">
-                                <dir
-                                  name="mapping">
-                                  <dir
-                                    name="alter"/>
-                                  <dir
-                                    name="create"/>
-                                  <dir
-                                    name="drop"/>
-                                </dir>
-                                <dir
-                                  name="pool">
-                                  <dir
-                                    name="alter"/>
-                                  <dir
-                                    name="create"/>
-                                  <dir
-                                    name="drop"/>
-                                </dir>
-                                <dir
-                                  name="resourceplan">
-                                  <dir
-                                    name="alter">
-                                    <dir
-                                      name="disable"/>
-                                    <dir
-                                      name="enable"/>
-                                    <dir
-                                      name="rename"/>
-                                    <dir
-                                      name="replace"/>
-                                    <dir
-                                      name="set"/>
-                                    <dir
-                                      name="unset"/>
-                                    <dir
-                                      name="validate"/>
-                                  </dir>
-                                  <dir
-                                    name="create"/>
-                                  <dir
-                                    name="drop"/>
-                                  <dir
-                                    name="show">
-                                    <dir
-                                      name="formatter"/>
-                                  </dir>
-                                </dir>
-                                <dir
-                                  name="trigger">
-                                  <dir
-                                    name="alter"/>
-                                  <dir
-                                    name="create"/>
-                                  <dir
-                                    name="drop"/>
-                                  <dir
-                                    name="pool">
-                                    <dir
-                                      name="add"/>
-                                    <dir
-                                      name="drop"/>
-                                  </dir>
-                                </dir>
-                              </dir>
-                            </dir>
                             <dir
                               name="debug"/>
                             <dir
@@ -3180,42 +2005,22 @@
                               <dir
                                 name="persistence"/>
                               <dir
-                                name="repl">
+                                name="spark">
                                 <dir
-                                  name="atlas"/>
+                                  name="Statistic"/>
                                 <dir
-                                  name="bootstrap">
+                                  name="session"/>
+                                <dir
+                                  name="status">
                                   <dir
-                                    name="events">
-                                    <dir
-                                      name="filesystem"/>
-                                  </dir>
-                                  <dir
-                                    name="load">
-                                    <dir
-                                      name="table"/>
-                                    <dir
-                                      name="util"/>
-                                  </dir>
+                                    name="impl"/>
                                 </dir>
-                                <dir
-                                  name="incremental"/>
-                                <dir
-                                  name="ranger"/>
-                                <dir
-                                  name="util"/>
                               </dir>
-                              <dir
-                                name="schq"/>
                               <dir
                                 name="tez">
                                 <dir
-                                  name="monitoring"/>
-                                <dir
                                   name="tools"/>
                               </dir>
-                              <dir
-                                name="util"/>
                               <dir
                                 name="vector">
                                 <dir
@@ -3223,8 +2028,6 @@
                                   <dir
                                     name="aggregates"/>
                                 </dir>
-                                <dir
-                                  name="filesink"/>
                                 <dir
                                   name="keyseries"/>
                                 <dir
@@ -3237,15 +2040,9 @@
                                     name="optimized"/>
                                 </dir>
                                 <dir
-                                  name="ptf"/>
-                                <dir
                                   name="reducesink"/>
                                 <dir
-                                  name="rowbytescontainer"/>
-                                <dir
                                   name="udf"/>
-                                <dir
-                                  name="wrapper"/>
                               </dir>
                             </dir>
                             <dir
@@ -3253,15 +2050,16 @@
                             <dir
                               name="hooks"/>
                             <dir
-                              name="index"/>
+                              name="index">
+                              <dir
+                                name="bitmap"/>
+                              <dir
+                                name="compact"/>
+                            </dir>
                             <dir
                               name="io">
                               <dir
-                                name="arrow"/>
-                              <dir
                                 name="avro"/>
-                              <dir
-                                name="esriJson"/>
                               <dir
                                 name="merge"/>
                               <dir
@@ -3283,390 +2081,17 @@
                                 <dir
                                   name="timestamp"/>
                                 <dir
-                                  name="vector"/>
-                                <dir
                                   name="write"/>
                               </dir>
-                              <dir
-                                name="protobuf"/>
                               <dir
                                 name="rcfile">
                                 <dir
                                   name="merge"/>
                                 <dir
-                                  name="truncate"/>
-                              </dir>
-                              <dir
-                                name="sarg"/>
-                            </dir>
-                            <dir
-                              name="lib"/>
-                            <dir
-                              name="lock"/>
-                            <dir
-                              name="lockmgr">
-                              <dir
-                                name="zookeeper"/>
-                            </dir>
-                            <dir
-                              name="log">
-                              <dir
-                                name="syslog"/>
-                            </dir>
-                            <dir
-                              name="metadata">
-                              <dir
-                                name="events"/>
-                              <dir
-                                name="formatting"/>
-                            </dir>
-                            <dir
-                              name="optimizer">
-                              <dir
-                                name="calcite">
-                                <dir
-                                  name="correlation"/>
-                                <dir
-                                  name="cost"/>
-                                <dir
-                                  name="functions"/>
-                                <dir
-                                  name="reloperators">
-                                  <dir
-                                    name="jdbc"/>
-                                </dir>
-                                <dir
-                                  name="rules">
-                                  <dir
-                                    name="jdbc"/>
-                                  <dir
-                                    name="views"/>
-                                </dir>
-                                <dir
                                   name="stats"/>
                                 <dir
-                                  name="translator">
-                                  <dir
-                                    name="opconventer"/>
-                                </dir>
+                                  name="truncate"/>
                               </dir>
-                              <dir
-                                name="correlation"/>
-                              <dir
-                                name="graph"/>
-                              <dir
-                                name="lineage"/>
-                              <dir
-                                name="listbucketingpruner"/>
-                              <dir
-                                name="metainfo">
-                                <dir
-                                  name="annotation"/>
-                              </dir>
-                              <dir
-                                name="pcr"/>
-                              <dir
-                                name="physical"/>
-                              <dir
-                                name="ppr"/>
-                              <dir
-                                name="signature"/>
-                              <dir
-                                name="stats">
-                                <dir
-                                  name="annotation"/>
-                              </dir>
-                              <dir
-                                name="topnkey"/>
-                              <dir
-                                name="unionproc"/>
-                            </dir>
-                            <dir
-                              name="parse">
-                              <dir
-                                name="authorization"/>
-                              <dir
-                                name="relnodegen"/>
-                              <dir
-                                name="repl">
-                                <dir
-                                  name="dump">
-                                  <dir
-                                    name="events"/>
-                                  <dir
-                                    name="io"/>
-                                  <dir
-                                    name="log">
-                                    <dir
-                                      name="state"/>
-                                  </dir>
-                                  <dir
-                                    name="metric"/>
-                                </dir>
-                                <dir
-                                  name="load">
-                                  <dir
-                                    name="log">
-                                    <dir
-                                      name="state"/>
-                                  </dir>
-                                  <dir
-                                    name="message"/>
-                                  <dir
-                                    name="metric"/>
-                                </dir>
-                                <dir
-                                  name="metric">
-                                  <dir
-                                    name="event"/>
-                                </dir>
-                              </dir>
-                              <dir
-                                name="rewrite">
-                                <dir
-                                  name="sql"/>
-                              </dir>
-                              <dir
-                                name="type"/>
-                            </dir>
-                            <dir
-                              name="plan">
-                              <dir
-                                name="mapper"/>
-                              <dir
-                                name="ptf"/>
-                            </dir>
-                            <dir
-                              name="ppd"/>
-                            <dir
-                              name="processors"/>
-                            <dir
-                              name="reexec"/>
-                            <dir
-                              name="scheduled"/>
-                            <dir
-                              name="secrets"/>
-                            <dir
-                              name="security">
-                              <dir
-                                name="authorization">
-                                <dir
-                                  name="command"/>
-                                <dir
-                                  name="plugin">
-                                  <dir
-                                    name="fallback"/>
-                                  <dir
-                                    name="metastore">
-                                    <dir
-                                      name="events"/>
-                                    <dir
-                                      name="filtercontext"/>
-                                  </dir>
-                                  <dir
-                                    name="sqlstd"/>
-                                </dir>
-                              </dir>
-                            </dir>
-                            <dir
-                              name="session"/>
-                            <dir
-                              name="stats">
-                              <dir
-                                name="estimator"/>
-                              <dir
-                                name="fs"/>
-                            </dir>
-                            <dir
-                              name="tools"/>
-                            <dir
-                              name="txn">
-                              <dir
-                                name="compactor">
-                                <dir
-                                  name="handler"/>
-                                <dir
-                                  name="service"/>
-                              </dir>
-                            </dir>
-                            <dir
-                              name="udf">
-                              <dir
-                                name="esri">
-                                <dir
-                                  name="serde"/>
-                                <dir
-                                  name="shims"/>
-                              </dir>
-                              <dir
-                                name="generic"/>
-                              <dir
-                                name="ptf"/>
-                              <dir
-                                name="xml"/>
-                            </dir>
-                            <dir
-                              name="util"/>
-                            <dir
-                              name="wm"/>
-                          </dir>
-                        </dir>
-                      </dir>
-                      <dir
-                        name="hive">
-                        <dir
-                          name="benchmark">
-                          <dir
-                            name="vectorization"/>
-                        </dir>
-                        <dir
-                          name="plugin">
-                          <dir
-                            name="api"/>
-                        </dir>
-                      </dir>
-                      <dir
-                        name="tez">
-                        <dir
-                          name="dag">
-                          <dir
-                            name="api"/>
-                        </dir>
-                      </dir>
-                    </dir>
-                  </dir>
-                </dir>
-                <dir
-                  name="test">
-                  <dir
-                    name="org">
-                    <dir
-                      name="apache">
-                      <dir
-                        name="hadoop">
-                        <dir
-                          name="hive">
-                          <dir
-                            name="llap"/>
-                          <dir
-                            name="metastore">
-                            <dir
-                              name="txn"/>
-                          </dir>
-                          <dir
-                            name="ql">
-                            <dir
-                              name="cleanup"/>
-                            <dir
-                              name="ddl">
-                              <dir
-                                name="table">
-                                <dir
-                                  name="partition">
-                                  <dir
-                                    name="show"/>
-                                </dir>
-                              </dir>
-                            </dir>
-                            <dir
-                              name="exec">
-                              <dir
-                                name="errors"/>
-                              <dir
-                                name="mapjoin"/>
-                              <dir
-                                name="mr"/>
-                              <dir
-                                name="persistence"/>
-                              <dir
-                                name="repl">
-                                <dir
-                                  name="bootstrap">
-                                  <dir
-                                    name="load"/>
-                                </dir>
-                                <dir
-                                  name="dump"/>
-                                <dir
-                                  name="ranger"/>
-                                <dir
-                                  name="util"/>
-                              </dir>
-                              <dir
-                                name="tez">
-                                <dir
-                                  name="monitoring"/>
-                              </dir>
-                              <dir
-                                name="util">
-                                <dir
-                                  name="collectoroperator"/>
-                                <dir
-                                  name="rowobjects"/>
-                              </dir>
-                              <dir
-                                name="vector">
-                                <dir
-                                  name="aggregation"/>
-                                <dir
-                                  name="expressions">
-                                  <dir
-                                    name="aggregates"/>
-                                </dir>
-                                <dir
-                                  name="mapjoin">
-                                  <dir
-                                    name="fast"/>
-                                </dir>
-                                <dir
-                                  name="ptf"/>
-                                <dir
-                                  name="udf">
-                                  <dir
-                                    name="generic"/>
-                                  <dir
-                                    name="legacy"/>
-                                </dir>
-                                <dir
-                                  name="util">
-                                  <dir
-                                    name="batchgen"/>
-                                </dir>
-                              </dir>
-                            </dir>
-                            <dir
-                              name="hooks"/>
-                            <dir
-                              name="index"/>
-                            <dir
-                              name="io">
-                              <dir
-                                name="arrow"/>
-                              <dir
-                                name="avro"/>
-                              <dir
-                                name="esriJson"/>
-                              <dir
-                                name="filter"/>
-                              <dir
-                                name="orc">
-                                <dir
-                                  name="encoded"/>
-                              </dir>
-                              <dir
-                                name="parquet">
-                                <dir
-                                  name="convert"/>
-                                <dir
-                                  name="read"/>
-                                <dir
-                                  name="serde">
-                                  <dir
-                                    name="primitive"/>
-                                </dir>
-                              </dir>
-                              <dir
-                                name="protobuf"/>
                               <dir
                                 name="sarg"/>
                             </dir>
@@ -3689,34 +2114,199 @@
                               <dir
                                 name="calcite">
                                 <dir
+                                  name="cost"/>
+                                <dir
+                                  name="functions"/>
+                                <dir
                                   name="reloperators"/>
                                 <dir
-                                  name="rules">
-                                  <dir
-                                    name="views"/>
-                                </dir>
+                                  name="rules"/>
                                 <dir
                                   name="stats"/>
                                 <dir
                                   name="translator"/>
                               </dir>
                               <dir
+                                name="correlation"/>
+                              <dir
+                                name="index"/>
+                              <dir
                                 name="lineage"/>
                               <dir
                                 name="listbucketingpruner"/>
                               <dir
-                                name="physical"/>
+                                name="metainfo">
+                                <dir
+                                  name="annotation"/>
+                              </dir>
+                              <dir
+                                name="pcr"/>
+                              <dir
+                                name="physical">
+                                <dir
+                                  name="index"/>
+                              </dir>
                               <dir
                                 name="ppr"/>
                               <dir
-                                name="signature"/>
+                                name="spark"/>
                               <dir
                                 name="stats">
                                 <dir
                                   name="annotation"/>
                               </dir>
                               <dir
-                                name="topnkey"/>
+                                name="unionproc"/>
+                            </dir>
+                            <dir
+                              name="parse">
+                              <dir
+                                name="authorization"/>
+                              <dir
+                                name="spark"/>
+                            </dir>
+                            <dir
+                              name="plan">
+                              <dir
+                                name="ptf"/>
+                            </dir>
+                            <dir
+                              name="ppd"/>
+                            <dir
+                              name="processors"/>
+                            <dir
+                              name="security">
+                              <dir
+                                name="authorization">
+                                <dir
+                                  name="plugin">
+                                  <dir
+                                    name="sqlstd"/>
+                                </dir>
+                              </dir>
+                            </dir>
+                            <dir
+                              name="session"/>
+                            <dir
+                              name="stats">
+                              <dir
+                                name="fs"/>
+                            </dir>
+                            <dir
+                              name="tools"/>
+                            <dir
+                              name="txn">
+                              <dir
+                                name="compactor"/>
+                            </dir>
+                            <dir
+                              name="udf">
+                              <dir
+                                name="generic"/>
+                              <dir
+                                name="ptf"/>
+                              <dir
+                                name="xml"/>
+                            </dir>
+                            <dir
+                              name="util"/>
+                          </dir>
+                        </dir>
+                      </dir>
+                    </dir>
+                  </dir>
+                </dir>
+                <dir
+                  name="test">
+                  <dir
+                    name="org">
+                    <dir
+                      name="apache">
+                      <dir
+                        name="hadoop">
+                        <dir
+                          name="hive">
+                          <dir
+                            name="metastore"/>
+                          <dir
+                            name="ql">
+                            <dir
+                              name="exec">
+                              <dir
+                                name="errors"/>
+                              <dir
+                                name="mapjoin"/>
+                              <dir
+                                name="persistence"/>
+                              <dir
+                                name="spark">
+                                <dir
+                                  name="session"/>
+                              </dir>
+                              <dir
+                                name="tez"/>
+                              <dir
+                                name="vector">
+                                <dir
+                                  name="expressions"/>
+                                <dir
+                                  name="mapjoin">
+                                  <dir
+                                    name="fast"/>
+                                </dir>
+                                <dir
+                                  name="udf">
+                                  <dir
+                                    name="generic"/>
+                                  <dir
+                                    name="legacy"/>
+                                </dir>
+                                <dir
+                                  name="util"/>
+                              </dir>
+                            </dir>
+                            <dir
+                              name="hooks"/>
+                            <dir
+                              name="io">
+                              <dir
+                                name="avro"/>
+                              <dir
+                                name="orc"/>
+                              <dir
+                                name="parquet">
+                                <dir
+                                  name="read"/>
+                                <dir
+                                  name="serde">
+                                  <dir
+                                    name="primitive"/>
+                                </dir>
+                              </dir>
+                              <dir
+                                name="sarg"/>
+                            </dir>
+                            <dir
+                              name="lib"/>
+                            <dir
+                              name="lockmgr">
+                              <dir
+                                name="zookeeper"/>
+                            </dir>
+                            <dir
+                              name="log"/>
+                            <dir
+                              name="metadata"/>
+                            <dir
+                              name="optimizer">
+                              <dir
+                                name="calcite"/>
+                              <dir
+                                name="listbucketingpruner"/>
+                              <dir
+                                name="physical"/>
+                              <dir
+                                name="ppr"/>
                             </dir>
                             <dir
                               name="parse">
@@ -3729,44 +2319,18 @@
                                 </dir>
                               </dir>
                               <dir
-                                name="repl">
-                                <dir
-                                  name="dump">
-                                  <dir
-                                    name="events"/>
-                                </dir>
-                                <dir
-                                  name="load">
-                                  <dir
-                                    name="message"/>
-                                </dir>
-                                <dir
-                                  name="metric"/>
-                              </dir>
-                              <dir
-                                name="type"/>
+                                name="positive"/>
                             </dir>
                             <dir
-                              name="plan">
-                              <dir
-                                name="mapping"/>
-                            </dir>
+                              name="plan"/>
                             <dir
                               name="processors"/>
-                            <dir
-                              name="reexec"/>
-                            <dir
-                              name="schq"/>
-                            <dir
-                              name="secrets"/>
                             <dir
                               name="security">
                               <dir
                                 name="authorization">
                                 <dir
                                   name="plugin">
-                                  <dir
-                                    name="metastore"/>
                                   <dir
                                     name="sqlstd"/>
                                 </dir>
@@ -3775,46 +2339,27 @@
                             <dir
                               name="session"/>
                             <dir
-                              name="stats"/>
-                            <dir
                               name="testutil"/>
                             <dir
                               name="tool"/>
                             <dir
                               name="txn">
                               <dir
-                                name="compactor">
-                                <dir
-                                  name="handler"/>
-                              </dir>
+                                name="compactor"/>
                             </dir>
                             <dir
                               name="udaf"/>
                             <dir
                               name="udf">
                               <dir
-                                name="esri">
-                                <dir
-                                  name="serde"/>
-                              </dir>
-                              <dir
                                 name="generic"/>
-                              <dir
-                                name="ptf"/>
                               <dir
                                 name="xml"/>
                             </dir>
                             <dir
                               name="util"/>
-                            <dir
-                              name="wm"/>
                           </dir>
                         </dir>
-                      </dir>
-                      <dir
-                        name="hive">
-                        <dir
-                          name="testutils"/>
                       </dir>
                     </dir>
                   </dir>
@@ -3911,18 +2456,11 @@
                             <dir
                               name="columnar"/>
                             <dir
-                              name="esriJson">
-                              <dir
-                                name="deserializer"/>
-                              <dir
-                                name="serializer"/>
-                            </dir>
+                              name="dynamic_type"/>
                             <dir
                               name="fast"/>
                             <dir
                               name="io"/>
-                            <dir
-                              name="json"/>
                             <dir
                               name="lazy">
                               <dir
@@ -3947,8 +2485,6 @@
                               <dir
                                 name="primitive"/>
                             </dir>
-                            <dir
-                              name="teradata"/>
                             <dir
                               name="thrift"/>
                             <dir
@@ -3980,10 +2516,7 @@
                             <dir
                               name="io"/>
                             <dir
-                              name="lazy">
-                              <dir
-                                name="fast"/>
-                            </dir>
+                              name="lazy"/>
                             <dir
                               name="lazybinary"/>
                             <dir
@@ -3991,10 +2524,6 @@
                               <dir
                                 name="primitive"/>
                             </dir>
-                            <dir
-                              name="teradata"/>
-                            <dir
-                              name="thrift"/>
                             <dir
                               name="thrift_test"/>
                             <dir
@@ -4037,6 +2566,42 @@
               <dir
                 name="src">
                 <dir
+                  name="gen">
+                  <dir
+                    name="thrift">
+                    <dir
+                      name="gen-cpp"/>
+                    <dir
+                      name="gen-javabean">
+                      <dir
+                        name="org">
+                        <dir
+                          name="apache">
+                          <dir
+                            name="hadoop">
+                            <dir
+                              name="hive">
+                              <dir
+                                name="service"/>
+                            </dir>
+                          </dir>
+                          <dir
+                            name="hive">
+                            <dir
+                              name="service">
+                              <dir
+                                name="cli">
+                                <dir
+                                  name="thrift"/>
+                              </dir>
+                            </dir>
+                          </dir>
+                        </dir>
+                      </dir>
+                    </dir>
+                  </dir>
+                </dir>
+                <dir
                   name="java">
                   <dir
                     name="org">
@@ -4045,61 +2610,9 @@
                       <dir
                         name="hive">
                         <dir
-                          name="http"/>
-                        <dir
                           name="service">
                           <dir
-                            name="auth">
-                            <dir
-                              name="jwt"/>
-                            <dir
-                              name="ldap"/>
-                            <dir
-                              name="saml"/>
-                          </dir>
-                          <dir
-                            name="cli">
-                            <dir
-                              name="operation">
-                              <dir
-                                name="hplsql"/>
-                            </dir>
-                            <dir
-                              name="session"/>
-                            <dir
-                              name="thrift"/>
-                          </dir>
-                          <dir
-                            name="server"/>
-                          <dir
-                            name="servlet"/>
-                        </dir>
-                      </dir>
-                    </dir>
-                  </dir>
-                </dir>
-                <dir
-                  name="test">
-                  <dir
-                    name="org">
-                    <dir
-                      name="apache">
-                      <dir
-                        name="hadoop">
-                        <dir
-                          name="util"/>
-                      </dir>
-                      <dir
-                        name="hive">
-                        <dir
-                          name="http"/>
-                        <dir
-                          name="service">
-                          <dir
-                            name="auth">
-                            <dir
-                              name="ldap"/>
-                          </dir>
+                            name="auth"/>
                           <dir
                             name="cli">
                             <dir
@@ -4116,35 +2629,27 @@
                     </dir>
                   </dir>
                 </dir>
-              </dir>
-            </dir>
-            <dir
-              name="service-rpc">
-              <dir
-                name="src">
                 <dir
-                  name="gen">
+                  name="test">
                   <dir
-                    name="thrift">
+                    name="org">
                     <dir
-                      name="gen-cpp"/>
-                    <dir
-                      name="gen-javabean">
+                      name="apache">
                       <dir
-                        name="org">
+                        name="hive">
                         <dir
-                          name="apache">
+                          name="service">
                           <dir
-                            name="hive">
+                            name="auth"/>
+                          <dir
+                            name="cli">
                             <dir
-                              name="service">
-                              <dir
-                                name="rpc">
-                                <dir
-                                  name="thrift"/>
-                              </dir>
-                            </dir>
+                              name="session"/>
+                            <dir
+                              name="thrift"/>
                           </dir>
+                          <dir
+                            name="server"/>
                         </dir>
                       </dir>
                     </dir>
@@ -4172,28 +2677,11 @@
                               name="hive">
                               <dir
                                 name="shims"/>
+                              <dir
+                                name="thrift"/>
                             </dir>
                             <dir
                               name="mapred"/>
-                            <dir
-                              name="util"/>
-                          </dir>
-                        </dir>
-                      </dir>
-                    </dir>
-                    <dir
-                      name="test">
-                      <dir
-                        name="org">
-                        <dir
-                          name="apache">
-                          <dir
-                            name="hadoop">
-                            <dir
-                              name="hive">
-                              <dir
-                                name="shims"/>
-                            </dir>
                           </dir>
                         </dir>
                       </dir>
@@ -4241,8 +2729,17 @@
                         </dir>
                       </dir>
                     </dir>
+                  </dir>
+                </dir>
+              </dir>
+              <dir
+                name="scheduler">
+                <dir
+                  name="src">
+                  <dir
+                    name="main">
                     <dir
-                      name="test">
+                      name="java">
                       <dir
                         name="org">
                         <dir
@@ -4250,11 +2747,9 @@
                           <dir
                             name="hadoop">
                             <dir
-                              name="fs"/>
-                            <dir
                               name="hive">
                               <dir
-                                name="io"/>
+                                name="schshim"/>
                             </dir>
                           </dir>
                         </dir>
@@ -4265,384 +2760,30 @@
               </dir>
             </dir>
             <dir
-              name="standalone-metastore">
+              name="spark-client">
               <dir
-                name="metastore-common">
+                name="src">
                 <dir
-                  name="src">
+                  name="main">
                   <dir
-                    name="gen">
+                    name="java">
                     <dir
-                      name="thrift">
+                      name="org">
                       <dir
-                        name="gen-cpp"/>
-                      <dir
-                        name="gen-javabean">
+                        name="apache">
                         <dir
-                          name="org">
+                          name="hive">
                           <dir
-                            name="apache">
+                            name="spark">
                             <dir
-                              name="hadoop">
+                              name="client">
                               <dir
-                                name="hive">
-                                <dir
-                                  name="metastore">
-                                  <dir
-                                    name="api"/>
-                                </dir>
-                              </dir>
-                            </dir>
-                          </dir>
-                        </dir>
-                      </dir>
-                    </dir>
-                  </dir>
-                  <dir
-                    name="main">
-                    <dir
-                      name="java">
-                      <dir
-                        name="org">
-                        <dir
-                          name="apache">
-                          <dir
-                            name="hadoop">
-                            <dir
-                              name="hive">
+                                name="metrics"/>
                               <dir
-                                name="common">
-                                <dir
-                                  name="classification"/>
-                                <dir
-                                  name="metrics">
-                                  <dir
-                                    name="common"/>
-                                  <dir
-                                    name="metrics2"/>
-                                </dir>
-                                <dir
-                                  name="repl"/>
-                              </dir>
-                              <dir
-                                name="metastore">
-                                <dir
-                                  name="annotation"/>
-                                <dir
-                                  name="api"/>
-                                <dir
-                                  name="conf"/>
-                                <dir
-                                  name="hooks"/>
-                                <dir
-                                  name="ldap"/>
-                                <dir
-                                  name="partition">
-                                  <dir
-                                    name="spec"/>
-                                </dir>
-                                <dir
-                                  name="properties"/>
-                                <dir
-                                  name="security"/>
-                                <dir
-                                  name="txn"/>
-                                <dir
-                                  name="utils"/>
-                              </dir>
+                                name="rpc"/>
                             </dir>
                             <dir
-                              name="security">
-                              <dir
-                                name="token">
-                                <dir
-                                  name="delegation"/>
-                              </dir>
-                            </dir>
-                          </dir>
-                        </dir>
-                      </dir>
-                    </dir>
-                  </dir>
-                  <dir
-                    name="test">
-                    <dir
-                      name="java">
-                      <dir
-                        name="org">
-                        <dir
-                          name="apache">
-                          <dir
-                            name="hadoop">
-                            <dir
-                              name="hive">
-                              <dir
-                                name="common">
-                                <dir
-                                  name="metrics">
-                                  <dir
-                                    name="metrics2"/>
-                                </dir>
-                              </dir>
-                              <dir
-                                name="metastore">
-                                <dir
-                                  name="properties"/>
-                                <dir
-                                  name="utils"/>
-                              </dir>
-                            </dir>
-                          </dir>
-                        </dir>
-                      </dir>
-                    </dir>
-                  </dir>
-                </dir>
-              </dir>
-              <dir
-                name="metastore-server">
-                <dir
-                  name="src">
-                  <dir
-                    name="main">
-                    <dir
-                      name="java">
-                      <dir
-                        name="org">
-                        <dir
-                          name="apache">
-                          <dir
-                            name="hadoop">
-                            <dir
-                              name="hive">
-                              <dir
-                                name="common">
-                                <dir
-                                  name="histogram">
-                                  <dir
-                                    name="kll"/>
-                                </dir>
-                                <dir
-                                  name="ndv">
-                                  <dir
-                                    name="fm"/>
-                                  <dir
-                                    name="hll"/>
-                                </dir>
-                              </dir>
-                              <dir
-                                name="metastore">
-                                <dir
-                                  name="api">
-                                  <dir
-                                    name="utils"/>
-                                </dir>
-                                <dir
-                                  name="auth">
-                                  <dir
-                                    name="jwt"/>
-                                </dir>
-                                <dir
-                                  name="cache"/>
-                                <dir
-                                  name="client">
-                                  <dir
-                                    name="builder"/>
-                                </dir>
-                                <dir
-                                  name="columnstats">
-                                  <dir
-                                    name="aggr"/>
-                                  <dir
-                                    name="cache"/>
-                                  <dir
-                                    name="merge"/>
-                                </dir>
-                                <dir
-                                  name="conf"/>
-                                <dir
-                                  name="dataconnector">
-                                  <dir
-                                    name="jdbc"/>
-                                </dir>
-                                <dir
-                                  name="datasource"/>
-                                <dir
-                                  name="events"/>
-                                <dir
-                                  name="hooks"/>
-                                <dir
-                                  name="leader"/>
-                                <dir
-                                  name="messaging">
-                                  <dir
-                                    name="event">
-                                    <dir
-                                      name="filters"/>
-                                  </dir>
-                                  <dir
-                                    name="json">
-                                    <dir
-                                      name="gzip"/>
-                                  </dir>
-                                </dir>
-                                <dir
-                                  name="metrics"/>
-                                <dir
-                                  name="model"/>
-                                <dir
-                                  name="parser"/>
-                                <dir
-                                  name="security"/>
-                                <dir
-                                  name="tools">
-                                  <dir
-                                    name="metatool"/>
-                                  <dir
-                                    name="schematool"/>
-                                </dir>
-                                <dir
-                                  name="txn">
-                                  <dir
-                                    name="entities"/>
-                                  <dir
-                                    name="jdbc">
-                                    <dir
-                                      name="commands"/>
-                                    <dir
-                                      name="functions"/>
-                                    <dir
-                                      name="queries"/>
-                                  </dir>
-                                  <dir
-                                    name="retry"/>
-                                  <dir
-                                    name="service"/>
-                                </dir>
-                                <dir
-                                  name="utils"/>
-                              </dir>
-                            </dir>
-                          </dir>
-                        </dir>
-                      </dir>
-                    </dir>
-                  </dir>
-                  <dir
-                    name="test">
-                    <dir
-                      name="java">
-                      <dir
-                        name="org">
-                        <dir
-                          name="apache">
-                          <dir
-                            name="hadoop">
-                            <dir
-                              name="hive">
-                              <dir
-                                name="common">
-                                <dir
-                                  name="ndv">
-                                  <dir
-                                    name="fm"/>
-                                  <dir
-                                    name="hll"/>
-                                </dir>
-                              </dir>
-                              <dir
-                                name="metastore">
-                                <dir
-                                  name="annotation"/>
-                                <dir
-                                  name="cache"/>
-                                <dir
-                                  name="client"/>
-                                <dir
-                                  name="columnstats">
-                                  <dir
-                                    name="aggr"/>
-                                  <dir
-                                    name="merge"/>
-                                </dir>
-                                <dir
-                                  name="conf"/>
-                                <dir
-                                  name="datasource"/>
-                                <dir
-                                  name="dbinstall">
-                                  <dir
-                                    name="rules"/>
-                                </dir>
-                                <dir
-                                  name="events"/>
-                                <dir
-                                  name="ldap"/>
-                                <dir
-                                  name="leader"/>
-                                <dir
-                                  name="messaging">
-                                  <dir
-                                    name="json"/>
-                                </dir>
-                                <dir
-                                  name="metrics"/>
-                                <dir
-                                  name="minihms"/>
-                                <dir
-                                  name="properties"/>
-                                <dir
-                                  name="security"/>
-                                <dir
-                                  name="testutils"/>
-                                <dir
-                                  name="tools">
-                                  <dir
-                                    name="metatool"/>
-                                  <dir
-                                    name="schematool"/>
-                                </dir>
-                                <dir
-                                  name="txn">
-                                  <dir
-                                    name="retry"/>
-                                </dir>
-                                <dir
-                                  name="utils"/>
-                              </dir>
-                            </dir>
-                          </dir>
-                        </dir>
-                      </dir>
-                    </dir>
-                  </dir>
-                </dir>
-              </dir>
-              <dir
-                name="metastore-tools">
-                <dir
-                  name="metastore-benchmarks">
-                  <dir
-                    name="src">
-                    <dir
-                      name="main">
-                      <dir
-                        name="java">
-                        <dir
-                          name="org">
-                          <dir
-                            name="apache">
-                            <dir
-                              name="hadoop">
-                              <dir
-                                name="hive">
-                                <dir
-                                  name="metastore">
-                                  <dir
-                                    name="tools"/>
-                                </dir>
-                              </dir>
-                            </dir>
+                              name="counter"/>
                           </dir>
                         </dir>
                       </dir>
@@ -4650,50 +2791,21 @@
                   </dir>
                 </dir>
                 <dir
-                  name="tools-common">
+                  name="test">
                   <dir
-                    name="src">
+                    name="java">
                     <dir
-                      name="main">
+                      name="org">
                       <dir
-                        name="java">
+                        name="apache">
                         <dir
-                          name="org">
+                          name="hive">
                           <dir
-                            name="apache">
+                            name="spark">
                             <dir
-                              name="hadoop">
+                              name="client">
                               <dir
-                                name="hive">
-                                <dir
-                                  name="metastore">
-                                  <dir
-                                    name="tools"/>
-                                </dir>
-                              </dir>
-                            </dir>
-                          </dir>
-                        </dir>
-                      </dir>
-                    </dir>
-                    <dir
-                      name="test">
-                      <dir
-                        name="java">
-                        <dir
-                          name="org">
-                          <dir
-                            name="apache">
-                            <dir
-                              name="hadoop">
-                              <dir
-                                name="hive">
-                                <dir
-                                  name="metastore">
-                                  <dir
-                                    name="tools"/>
-                                </dir>
-                              </dir>
+                                name="rpc"/>
                             </dir>
                           </dir>
                         </dir>
@@ -4732,15 +2844,10 @@
                             <dir
                               name="exec">
                               <dir
-                                name="vector">
-                                <dir
-                                  name="expressions"/>
-                              </dir>
+                                name="vector"/>
                             </dir>
                             <dir
                               name="io">
-                              <dir
-                                name="filter"/>
                               <dir
                                 name="sarg"/>
                             </dir>
@@ -4776,34 +2883,12 @@
                         <dir
                           name="hive">
                           <dir
-                            name="common">
-                            <dir
-                              name="io"/>
-                            <dir
-                              name="type"/>
-                          </dir>
-                          <dir
                             name="ql">
                             <dir
                               name="exec">
                               <dir
-                                name="vector">
-                                <dir
-                                  name="expressions"/>
-                              </dir>
+                                name="vector"/>
                             </dir>
-                            <dir
-                              name="io">
-                              <dir
-                                name="sarg"/>
-                            </dir>
-                            <dir
-                              name="util"/>
-                          </dir>
-                          <dir
-                            name="serde2">
-                            <dir
-                              name="io"/>
                           </dir>
                         </dir>
                       </dir>
@@ -4821,41 +2906,83 @@
               </dir>
             </dir>
             <dir
-              name="streaming">
+              name="testutils">
               <dir
-                name="src">
+                name="ptest2">
                 <dir
-                  name="java">
+                  name="src">
                   <dir
-                    name="org">
+                    name="main">
                     <dir
-                      name="apache">
+                      name="java">
                       <dir
-                        name="hive">
+                        name="org">
                         <dir
-                          name="streaming"/>
+                          name="apache">
+                          <dir
+                            name="hive">
+                            <dir
+                              name="ptest">
+                              <dir
+                                name="api">
+                                <dir
+                                  name="client"/>
+                                <dir
+                                  name="request"/>
+                                <dir
+                                  name="response"/>
+                                <dir
+                                  name="server"/>
+                              </dir>
+                              <dir
+                                name="execution">
+                                <dir
+                                  name="conf"/>
+                                <dir
+                                  name="context"/>
+                                <dir
+                                  name="ssh"/>
+                              </dir>
+                            </dir>
+                          </dir>
+                        </dir>
                       </dir>
                     </dir>
                   </dir>
-                </dir>
-                <dir
-                  name="test">
                   <dir
-                    name="org">
+                    name="test">
                     <dir
-                      name="apache">
+                      name="java">
                       <dir
-                        name="hive">
+                        name="org">
                         <dir
-                          name="streaming"/>
+                          name="apache">
+                          <dir
+                            name="hive">
+                            <dir
+                              name="ptest">
+                              <dir
+                                name="api">
+                                <dir
+                                  name="server"/>
+                              </dir>
+                              <dir
+                                name="execution">
+                                <dir
+                                  name="conf"/>
+                                <dir
+                                  name="context"/>
+                                <dir
+                                  name="ssh"/>
+                              </dir>
+                            </dir>
+                          </dir>
+                        </dir>
                       </dir>
                     </dir>
                   </dir>
                 </dir>
               </dir>
-            </dir>
-            <dir
-              name="testutils">
               <dir
                 name="src">
                 <dir
@@ -4873,80 +3000,12 @@
                           <dir
                             name="junit">
                             <dir
-                              name="extensions"/>
-                          </dir>
-                        </dir>
-                      </dir>
-                    </dir>
-                  </dir>
-                </dir>
-                <dir
-                  name="test">
-                  <dir
-                    name="java">
-                    <dir
-                      name="org">
-                      <dir
-                        name="apache">
-                        <dir
-                          name="hive">
-                          <dir
-                            name="testutils">
-                            <dir
-                              name="junit">
+                              name="runners">
                               <dir
-                                name="extensions"/>
+                                name="model"/>
                             </dir>
                           </dir>
                         </dir>
-                      </dir>
-                    </dir>
-                  </dir>
-                </dir>
-              </dir>
-            </dir>
-            <dir
-              name="udf">
-              <dir
-                name="src">
-                <dir
-                  name="java">
-                  <dir
-                    name="org">
-                    <dir
-                      name="apache">
-                      <dir
-                        name="hadoop">
-                        <dir
-                          name="hive">
-                          <dir
-                            name="ql">
-                            <dir
-                              name="exec"/>
-                            <dir
-                              name="udf"/>
-                          </dir>
-                        </dir>
-                      </dir>
-                    </dir>
-                  </dir>
-                </dir>
-              </dir>
-            </dir>
-            <dir
-              name="vector-code-gen">
-              <dir
-                name="src">
-                <dir
-                  name="org">
-                  <dir
-                    name="apache">
-                    <dir
-                      name="hadoop">
-                      <dir
-                        name="hive">
-                        <dir
-                          name="tools"/>
                       </dir>
                     </dir>
                   </dir>
