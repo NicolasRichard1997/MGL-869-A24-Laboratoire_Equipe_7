@@ -1,47 +1,83 @@
 # Apache Hive Bug Prediction Models
 
-This initiative aims to enhance code quality by predicting bugs before releasing
- new code versions. By identifying files likely to contain bugs, we can prioritize
-  testing efforts, especially in the final stages before a release. Here, we leverage 
-  machine learning models to predict buggy files, optimizing our testing 
-  resources and improving software reliability.
+This project aims to enhance software quality by predicting bugs before new code versions are released. By identifying files likely to contain bugs, it prioritizes testing efforts, especially in the critical final stages before a release. Leveraging machine learning models, this approach optimizes resource allocation and improves the reliability of Apache Hive software.
+
+---
+
+## Key Features
+
+- **Bug Prediction**: Predict buggy files using machine learning models.
+- **Data Integration**: Combine Jira bug reports with code metrics for a comprehensive analysis.
+- **Optimized Testing**: Focus testing efforts on high-risk files to save time and resources.
+- **Model Evaluation**: Train and compare Logistic Regression and Random Forest models to ensure robust predictions.
+
+---
 
 ## Requirements
-- Git: Clone the Hive repository.
-- Python 3.8+: Programming environment.
-- Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn.
-- SciTools Understand: For code metrics collection.
 
-## Data Source
-- [Jira Bug Collection](https://issues.apache.org/jira/projects/HIVE/issues/HIVE-13282?filter=allopenissues)
-- [Apache Hive Software](https://github.com/apache/hive)
+- **Programming Tools**: 
+  - Git: Clone the Hive repository.
+  - Python 3.8+: Programming environment.
+- **Libraries**: 
+  - Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn.
+- **Code Metrics Tool**:
+  - SciTools Understand: For gathering detailed metrics on code files.
+  
+---
 
+## Data Sources
 
-## Instructions
-To get this project up-and-running, clone this repository (nicknamed
-*project repo* trhoughout) and the Apache Hive repository (*hive repo*).
+- **Bug Reports**: [Jira Bug Collection](https://issues.apache.org/jira/projects/HIVE/issues/HIVE-13282?filter=allopenissues)
+- **Codebase**: [Apache Hive Software](https://github.com/apache/hive)
 
-The code is spread out in three notebooks, organized as follows. Execute it sequentially 
+---
 
-### 1. Data Extraction
-The data extraction process begins with utilizing a the *Data_Extraction.ipynb* that contains the necessary code to efficiently gather and preprocess bug reports from Jira. The first step involves fetching these bug reports, followed by removing redundant entries and concatenating the data to ensure a streamlined dataset. Once the bug reports are curated, the next phase identifies the specific Java and C++ files affected by these bugs, providing a clear focus for subsequent analysis. 
+## Setup Instructions
 
-### 2. UND Data Collection
-Independent variables for each file across different versions of Hive are gathered using *SciTools Understand*, facilitating a comprehensive understanding of the factors influencing bug occurrences.
+1. **Clone the Repositories**:  
+   - Clone this repository (*project repo*).  
+   - Clone the Apache Hive repository (*hive repo*).
 
+2. **Install Dependencies**:  
+   - Ensure all required libraries are installed.
 
-### 3. Data Cleanup
-Following the extraction, the *Data_Cleanup.ipynb* stage ensures that the dataset is refined and ready for analysis. This involves identifying files that contain bugs, which helps in isolating the problematic areas within the codebase. Further refinement is achieved by adding classes and methods to the processed files, enriching the dataset with relevant structural information. This meticulous cleanup process is crucial for maintaining data integrity and enhancing the accuracy of the subsequent modeling and analysis steps.
+3. **Execute Notebooks**:  
+   - The workflow is split across three Jupyter notebooks. Execute them sequentially:
+---
 
-### 3. Data Partition_Trainning
-The final phase, contained in the *Data_Partion_Trainning.ipynb*, encompasses several critical steps to prepare the data for machine learning applications. Initially, data preparation involves selecting the most relevant features and organizing the data appropriately. This is followed by partitioning the data and conducting correlation analysis to understand the relationships between variables. Techniques such as over-sampling and under-sampling are employed to balance the dataset, ensuring robust model training. Two models, Logistic Regression and Random Forest, are then trained and compared on the same dataset to evaluate their performance. Interpretability is addressed through the use of nomograms and the identification of top features for both models. Additionally, the analysis includes a comparison of minor project versions to observe differences in metrics and model behavior. Finally, data is regrouped by major version to identify the most impactful features for each version, providing insights into how different major releases influence bug metrics and model performance.
+### Workflow
 
-# Licence
-This project is licensed under the MIT License. See the LICENSE file for details.
-Contact
+#### 1. **Data Extraction** (*Data_Extraction.ipynb*)
 
-# Contact
-For questions or suggestions, please contact:
+This notebook handles bug report extraction and preprocessing:  
+- Fetch bug reports from Jira.  
+- Remove redundancies and streamline the dataset.  
+- Identify Java and C++ files affected by bugs.
 
-    Name: Nicolas Richard
-    Email: nicolas.richard.1997@gmail.com
+#### 2. **UND Data Collection** (*Data_UND_Collection.ipynb*)
+
+Leverage *SciTools Understand* to collect independent variables for each file across different versions of Hive. This step provides insights into code structure and complexity, critical for modeling bug-prone files.
+
+#### 3. **Data Cleanup** (*Data_Cleanup.ipynb*)
+
+Refine and structure the dataset:  
+- Identify buggy files to focus analysis on problem areas.  
+- Enrich the dataset by adding classes and methods, enhancing structural context.
+
+#### 4. **Data Partitioning and Training** (*Data_Partition_Training.ipynb*)
+
+Prepare the data for machine learning and model training:  
+- Perform feature selection and data organization.  
+- Partition data and conduct correlation analysis.  
+- Apply sampling techniques (over-sampling and under-sampling) to address data imbalances.  
+- Train and compare Logistic Regression and Random Forest models.  
+- Analyze model interpretability using nomograms and top feature analysis.  
+- Compare metrics and model behavior across minor and major project versions.
+
+---
+
+## Licensing
+
+This project is licensed under the MIT License. Refer to the [LICENSE](LICENSE) file for more details.
+
+---
