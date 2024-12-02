@@ -6194,6 +6194,7 @@
       removed="true"/>
   </file_types>
   <annotations_options/>
+  <codecheck_options/>
   <comparison_options
     comparison_db=""
     git_repo="."

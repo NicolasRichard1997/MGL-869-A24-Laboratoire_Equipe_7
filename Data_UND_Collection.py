@@ -82,7 +82,7 @@ def process_versions():
                 run_command(f"cp {settings_file_path} {destination_settings_file}")
                 run_command(f"und settings -metricsOutputFile {os.path.join(hive_data, f'UND_{version}.csv')} {und_project_path}")
 
-                run_command(f"und analyze --threads 6 {und_project_path}")
+                run_command(f"und analyze --threads {und_project_path}")
                 run_command(f"cp {settings_file_path} {destination_settings_file}")
                 run_command(f"und settings -metricsOutputFile {os.path.join(hive_data, f'UND_{version}.csv')} {und_project_path}")
 
